@@ -7,8 +7,10 @@ words = [wordnet.synset(u"cat.n.01"), wordnet.synset(u"dog.n.01"),
 
 
 def w2w(w1, w2):
-  return w1.wup_similarity(w2)
-
+  if w1 == w2:
+    return 1
+  else:
+    return w1.wup_similarity(w2)
 
 def make_data_using_wordnet(words):
   list_of_vectors = []
@@ -53,4 +55,5 @@ def word_cluster(data, labels, k):
 
 if __name__ == "__main__":
   data, labels = make_data_using_wordnet(words)
+  print data
   word_cluster(data, labels, k=2)
