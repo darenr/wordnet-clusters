@@ -1,6 +1,10 @@
+# -*- coding: utf-8 -*-
+
 from sklearn import cluster, datasets
 import numpy as np
+import json
 from nltk.corpus import wordnet
+from collections import defaultdict
 
 words = [wordnet.synset(u"cat.n.01"), wordnet.synset(u"dog.n.01"),
          wordnet.synset(u"horse.n.01"), wordnet.synset(u"boat.n.01"), wordnet.synset(u"ship.n.01")]
@@ -53,7 +57,11 @@ def word_cluster(data, labels, k):
   for i, label in enumerate(labels):
     print label, k_means.labels_[i]
 
+  d = defaultdict(list)
+  for c, l in zip(k_means.labels_, labels):
+    d['cluster'+str(c)].append(l.name())
+  print json.dumps(d, indent=True)
+
 if __name__ == "__main__":
   data, labels = make_data_using_wordnet(words)
-  print data
   word_cluster(data, labels, k=2)
