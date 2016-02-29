@@ -17,6 +17,7 @@ def w2w(w1, w2):
   else:
     return w1.wup_similarity(w2)
 
+
 def make_data_using_wordnet(words):
   list_of_vectors = []
   for word_x in words:
@@ -60,7 +61,7 @@ def word_cluster(data, labels, k):
 
   d = defaultdict(list)
   for c, l in zip(k_means.labels_, labels):
-    d['cluster'+str(c)].append(l.name())
+    d['cluster' + str(c)].append(l.name())
   print json.dumps(d, indent=True)
 
 if __name__ == "__main__":
