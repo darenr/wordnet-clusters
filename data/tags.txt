@@ -1634,6 +1634,7 @@ riddle.n.01
 war.n.01
 fetish.n.01
 drag.n.04
+science fiction
 disembody.v.01
 reorient.v.03
 community.n.06

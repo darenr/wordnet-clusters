@@ -7,7 +7,8 @@ import json
 import sys
 import codecs
 from nltk.corpus import wordnet
-from collections import defaultdict
+from collections import defaultdict, Counter
+import matplotlib.pyplot as plt
 
 cache = {}
 
@@ -16,13 +17,13 @@ def mk_synset(w):
   if '.' in word:
     return wordnet.synset(word)
   else:
-    print 'Error, invalid synset name', w
-    sys.exit(-1)
+    print ' * Error, invalid synset name', w, 'skipping...'
+    return None
 
 
 def load_kadist_tags():
   with codecs.open('data/tags.txt', 'rb', 'utf-8') as tagfile:
-    return [mk_synset(w) for w in tagfile.readlines()]
+    return [mk_synset(w) for w in tagfile.readlines() if mk_synset(w)]
 
 
 def wup(w1, w2, t):
@@ -48,7 +49,7 @@ def w2w(w1, w2, t):
     s = sorted([w1,w2])
     x=(s[0], s[1])
     if x in cache:
-      return cache[x] 
+      return cache[x]
     else:
       distance1 = wup(x[0], x[1], t)
       distance2 = path(x[0], x[1], t)
@@ -68,6 +69,15 @@ def make_data_using_wordnet(words, t):
   labels = words
   return (data, labels)
 
+def histogram(d):
+  c = {k:len(d[k]) for k in d.keys()}
+  labels, values = zip(*c.items())
+  indexes = np.arange(len(labels))
+  width=1
+  plt.bar(indexes, values, width)
+  plt.xticks(indexes+width*0.5, labels)
+  plt.show()
+
 
 def word_cluster(data, labels, k):
   k_means = cluster.KMeans(n_clusters=k)
@@ -78,8 +88,12 @@ def word_cluster(data, labels, k):
   d = defaultdict(list)
   for c, l in zip(k_means.labels_, labels):
     d['cluster' + str(c)].append(l.name())
-  with codecs.open('data/clusters_k' + str(k) + '.json', 'wb', 'utf-8') as outfile:
+  fname = 'data/clusters_k' + str(k) + '.json'
+  with codecs.open(fname, 'wb', 'utf-8') as outfile:
     outfile.write(json.dumps(d, indent=True))
+    print ' * Saved results to', fname
+    # create historgram of cluster sizes
+    histogram(d)
 
 if __name__ == "__main__":
   if len(sys.argv) != 3:
