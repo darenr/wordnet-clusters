@@ -9,6 +9,14 @@ import codecs
 from nltk.corpus import wordnet
 from collections import defaultdict, Counter
 import matplotlib.pyplot as plt
+import os
+from gensim.models import Word2Vec
+
+wvmodel = None
+use_wordnet = False
+
+modelFile = "en_deps_300D_words.model"
+modelFile = "glove.42B.300d.txt"
 
 cache = {}
 
@@ -20,12 +28,31 @@ def mk_synset(w):
     print ' * Error, invalid synset name', w, 'skipping...'
     return None
 
-
 def load_kadist_tags():
   with codecs.open('data/tags.txt', 'rb', 'utf-8') as tagfile:
     return [mk_synset(w) for w in tagfile.readlines() if mk_synset(w)]
 
+#
+# wordvectors similarity distance
+#
+def wv(w1, w2, t):
+  # lazy load the wordvector model...
+  global wvmodel
+  if wvmodel == None:
+    print ' *', 'Loading wordvector model (', modelFile, ')...'
+    wvmodel = Word2Vec.load_word2vec_format(os.environ['HOME'] + "/models/" + modelFile, binary=False)
+    wvmodel.init_sims(replace=True) # no more updates, prune memory
 
+  try:
+    distance = wvmodel.similarity(w1.lemmas()[0].name(), w2.lemmas()[0].name())
+    print w1.name(), w2.name(), 'distance: ', distance
+    return distance if distance >= t else 0
+  except:
+    return 0
+
+#
+# wordnet wup similarity distance
+#
 def wup(w1, w2, t):
   distance = w1.wup_similarity(w2)
   if distance:
@@ -33,7 +60,9 @@ def wup(w1, w2, t):
       return distance
   return 0
 
-
+#
+# wordnet path similarity distancewv
+#
 def path(w1, w2, t):
   distance = w1.path_similarity(w2)
   if distance:
@@ -41,29 +70,35 @@ def path(w1, w2, t):
       return distance
   return 0
 
-
-def w2w(w1, w2, t):
+#
+# Normalized distance between any two words as represented
+# by wordnet synsets
+#
+def word_to_word_distance(w1, w2, t):
   if w1 == w2:
     return 1.0
   else:
-    s = sorted([w1,w2])
-    x=(s[0], s[1])
-    if x in cache:
-      return cache[x]
+    if use_wordnet:
+      global cache
+      s = sorted([w1,w2])
+      x=(s[0], s[1])
+      if x in cache:
+        return cache[x]
+      else:
+        distance1 = wup(x[0], x[1], t)
+        distance2 = path(x[0], x[1], t)
+        d = (distance1 + distance2) / 2.0
+        cache[x] = d
+        return d
     else:
-      distance1 = wup(x[0], x[1], t)
-      distance2 = path(x[0], x[1], t)
-      d = (distance1 + distance2) / 2.0
-      cache[x] = d
-      return d
+      return wv(w1, w2, t)
 
-
-def make_data_using_wordnet(words, t):
+def make_data_matrix(words, t):
   list_of_vectors = []
   for word_x in words:
     wordvector = []
     for word_y in words:
-      wordvector.append(w2w(word_x, word_y, t))
+      wordvector.append(word_to_word_distance(word_x, word_y, t))
     list_of_vectors.append(wordvector)
   data = np.array(np.array(list_of_vectors))
   labels = words
@@ -88,11 +123,16 @@ def word_cluster(data, labels, k):
   d = defaultdict(list)
   for c, l in zip(k_means.labels_, labels):
     d['cluster' + str(c)].append(l.name())
-  fname = 'data/clusters_k' + str(k) + '.json'
+  fname = 'results/clusters_'
+  if use_wordnet:
+    fname += "wn"
+  else:
+    fname += 'wv'
+  fname += '_k' + str(k) + '.json'
   with codecs.open(fname, 'wb', 'utf-8') as outfile:
     outfile.write(json.dumps(d, indent=True))
     print ' * Saved results to', fname
-    # create historgram of cluster sizes
+    # create histogram of cluster sizes
     histogram(d)
 
 if __name__ == "__main__":
@@ -106,6 +146,6 @@ if __name__ == "__main__":
   print ' *', 'loading tag set...'
   words = load_kadist_tags()
   print ' *', 'generating dataset...'
-  data, labels = make_data_using_wordnet(words, t)
+  data, labels = make_data_matrix(words, t)
   print ' *', 'clustering...'
   word_cluster(data, labels, k=k)
