@@ -1,0 +1,2924 @@
+{
+ "cluster282": [
+  "algorithm.n.01"
+ ], 
+ "cluster99": [
+  "failure.n.02", 
+  "disappearance.n.02", 
+  "beginning.n.01", 
+  "movement.n.03", 
+  "ending.n.04"
+ ], 
+ "cluster310": [
+  "rooftop.n.01"
+ ], 
+ "cluster258": [
+  "reclamation.n.02", 
+  "salvage.n.02"
+ ], 
+ "cluster92": [
+  "comedy.n.01", 
+  "slapstick.n.01", 
+  "dark_comedy.n.01", 
+  "poetry.n.01"
+ ], 
+ "cluster112": [
+  "platitude.n.01", 
+  "fabrication.n.01", 
+  "mythologization.n.01", 
+  "manifesto.n.01"
+ ], 
+ "cluster113": [
+  "vice_crime.n.01", 
+  "attack.n.05"
+ ], 
+ "cluster110": [
+  "earth.n.02", 
+  "waste.n.01", 
+  "pesticide.n.01", 
+  "clay.n.01", 
+  "material.n.01"
+ ], 
+ "cluster111": [
+  "perversion.n.02", 
+  "autoeroticism.n.01", 
+  "consumption.n.01", 
+  "hybridization.n.01", 
+  "voyeurism.n.01", 
+  "homosexuality.n.01"
+ ], 
+ "cluster116": [
+  "community.n.06"
+ ], 
+ "cluster117": [
+  "artifact.n.01"
+ ], 
+ "cluster114": [
+  "frame.n.10", 
+  "window.n.01"
+ ], 
+ "cluster115": [
+  "limit.n.03", 
+  "stratum.n.01", 
+  "layer.n.02", 
+  "atmosphere.n.03", 
+  "eden.n.01"
+ ], 
+ "cluster118": [
+  "study.n.02", 
+  "identity.n.02", 
+  "symbol.n.02", 
+  "sensation.n.01", 
+  "synesthesia.n.01", 
+  "internalization.n.01", 
+  "retrieval.n.02", 
+  "vision.n.03"
+ ], 
+ "cluster119": [
+  "hanging.n.02", 
+  "terrorism.n.01", 
+  "sexism.n.01"
+ ], 
+ "cluster167": [
+  "transaction.n.01"
+ ], 
+ "cluster166": [
+  "cover.n.03", 
+  "falsification.n.02", 
+  "ritual.n.02", 
+  "suspension.n.06", 
+  "defense.n.02", 
+  "pornography.n.01", 
+  "repetition.n.02", 
+  "interposition.n.02", 
+  "juxtaposition.n.01", 
+  "practice.n.04", 
+  "recycling.n.01", 
+  "anachronism.n.01", 
+  "exploitation.n.01"
+ ], 
+ "cluster165": [
+  "meteorite.n.01", 
+  "human_body.n.01", 
+  "universe.n.01", 
+  "constellation.n.02", 
+  "body.n.01", 
+  "nature.n.03"
+ ], 
+ "cluster164": [
+  "reliquary.n.01", 
+  "box.n.01", 
+  "receptacle.n.01"
+ ], 
+ "cluster163": [
+  "botanical.n.01", 
+  "cannabis.n.02", 
+  "drug.n.01"
+ ], 
+ "cluster162": [
+  "watchdog.n.02"
+ ], 
+ "cluster161": [
+  "falsification.n.03", 
+  "crime.n.01", 
+  "distortion.n.05"
+ ], 
+ "cluster160": [
+  "metaphor.n.01", 
+  "synecdoche.n.01", 
+  "repetition.n.03", 
+  "trope.n.01"
+ ], 
+ "cluster169": [
+  "rigmarole.n.01", 
+  "absurdity.n.01"
+ ], 
+ "cluster168": [
+  "sight.n.03", 
+  "stereoscopic_vision.n.01", 
+  "night_vision.n.01"
+ ], 
+ "cluster439": [
+  "heritage.n.01", 
+  "universal.n.03"
+ ], 
+ "cluster438": [
+  "flit.n.01", 
+  "transmutation.n.01", 
+  "passage.n.01", 
+  "displacement.n.06", 
+  "inversion.n.08"
+ ], 
+ "cluster349": [
+  "seed.n.02", 
+  "leaf.n.01", 
+  "stalk.n.02"
+ ], 
+ "cluster348": [
+  "alphabet.n.01", 
+  "inventory.n.01"
+ ], 
+ "cluster347": [
+  "art_history.n.01", 
+  "romanticism.n.02", 
+  "philosophy.n.02", 
+  "history.n.03"
+ ], 
+ "cluster346": [
+  "memory.n.02", 
+  "intuition.n.01", 
+  "perception.n.03"
+ ], 
+ "cluster345": [
+  "unconscious_mind.n.01"
+ ], 
+ "cluster432": [
+  "aberrant.s.01"
+ ], 
+ "cluster343": [
+  "profanation.n.01", 
+  "lust.n.02"
+ ], 
+ "cluster342": [
+  "passport.n.02", 
+  "contract.n.01"
+ ], 
+ "cluster341": [
+  "third_party.n.01"
+ ], 
+ "cluster340": [
+  "reclaim.v.02", 
+  "recycle.v.02"
+ ], 
+ "cluster189": [
+  "diversion.n.02"
+ ], 
+ "cluster188": [
+  "technology.n.01", 
+  "typography.n.01"
+ ], 
+ "cluster181": [
+  "labor.n.02", 
+  "undertaking.n.01", 
+  "investigation.n.02"
+ ], 
+ "cluster180": [
+  "event.n.01"
+ ], 
+ "cluster183": [
+  "detail.n.03", 
+  "sloganeering.n.01", 
+  "medium.n.10", 
+  "suggestion.n.04"
+ ], 
+ "cluster182": [
+  "impersonation.n.03", 
+  "reenactment.n.01"
+ ], 
+ "cluster185": [
+  "israel.n.01", 
+  "cuba.n.01", 
+  "turkey.n.02", 
+  "cyprus.n.01", 
+  "indonesia.n.01"
+ ], 
+ "cluster184": [
+  "few.n.01", 
+  "labor.n.01", 
+  "elite.n.01", 
+  "agriculture.n.04"
+ ], 
+ "cluster187": [
+  "sustainability.n.01", 
+  "optics.n.02"
+ ], 
+ "cluster186": [
+  "monroe.n.01", 
+  "hepburn.n.01", 
+  "actor.n.01"
+ ], 
+ "cluster233": [
+  "iron.n.01", 
+  "sky.n.01", 
+  "aluminum.n.01", 
+  "neon.n.01"
+ ], 
+ "cluster232": [
+  "anarchy.n.01", 
+  "chaos.n.01", 
+  "confusion.n.01"
+ ], 
+ "cluster338": [
+  "detail.n.01"
+ ], 
+ "cluster339": [
+  "corporation.n.01", 
+  "monorail.n.01"
+ ], 
+ "cluster237": [
+  "firearm.n.01", 
+  "nuclear_weapon.n.01"
+ ], 
+ "cluster236": [
+  "bed.n.01", 
+  "wheelchair.n.01"
+ ], 
+ "cluster235": [
+  "costume.n.01", 
+  "costume.n.02", 
+  "costume.n.04", 
+  "hat.n.01", 
+  "brassiere.n.01"
+ ], 
+ "cluster234": [
+  "compilation.n.01", 
+  "periodical.n.01", 
+  "magazine.n.01", 
+  "cartoon.n.02"
+ ], 
+ "cluster43": [
+  "hallucination.n.01", 
+  "melancholy.n.02", 
+  "curiosity.n.01", 
+  "amnesia.n.01", 
+  "consciousness.n.01", 
+  "trauma.n.02"
+ ], 
+ "cluster42": [
+  "evidence.n.03", 
+  "propaganda.n.01", 
+  "misinformation.n.01", 
+  "documentation.n.01"
+ ], 
+ "cluster239": [
+  "identity.n.01", 
+  "gender_identity.n.01"
+ ], 
+ "cluster238": [
+  "welcome.n.01", 
+  "context.n.02", 
+  "setting.n.02", 
+  "ecology.n.01", 
+  "street.n.03"
+ ], 
+ "cluster47": [
+  "wings.n.01", 
+  "voice.n.05"
+ ], 
+ "cluster46": [
+  "coil.n.01", 
+  "memorial.n.03", 
+  "stadium.n.01", 
+  "altar.n.02", 
+  "shelter.n.01"
+ ], 
+ "cluster45": [
+  "marking.n.04", 
+  "profanation.n.02", 
+  "renovation.n.01", 
+  "modernization.n.01", 
+  "perfection.n.03", 
+  "destruction.n.01", 
+  "dissolution.n.05", 
+  "neutralization.n.04", 
+  "correction.n.01", 
+  "installation.n.01", 
+  "contamination.n.03"
+ ], 
+ "cluster335": [
+  "distance.n.03", 
+  "bulk.n.02"
+ ], 
+ "cluster327": [
+  "social_group.n.01"
+ ], 
+ "cluster326": [
+  "element.n.05", 
+  "substance.n.01", 
+  "fire.n.05"
+ ], 
+ "cluster475": [
+  "beautiful.a.01"
+ ], 
+ "cluster474": [
+  "activism.n.01", 
+  "system.n.07"
+ ], 
+ "cluster477": [
+  "knowing.n.01", 
+  "reading.n.01", 
+  "linguistic_process.n.02"
+ ], 
+ "cluster476": [
+  "fear.v.02"
+ ], 
+ "cluster471": [
+  "circulation.n.06"
+ ], 
+ "cluster470": [
+  "cancer.n.01"
+ ], 
+ "cluster473": [
+  "quiet.a.01"
+ ], 
+ "cluster472": [
+  "cross-cultural.a.01"
+ ], 
+ "cluster479": [
+  "discontinuity.n.01", 
+  "isolation.n.01", 
+  "disjunction.n.01"
+ ], 
+ "cluster478": [
+  "memento_mori.n.01", 
+  "grey_area.n.01"
+ ], 
+ "cluster231": [
+  "decay.n.03", 
+  "catastrophe.n.03", 
+  "earthquake.n.01"
+ ], 
+ "cluster158": [
+  "burlesque.n.01", 
+  "soap_opera.n.01", 
+  "television_program.n.01", 
+  "travelogue.n.01"
+ ], 
+ "cluster159": [
+  "cutout.n.02", 
+  "portrait.n.02", 
+  "venn_diagram.n.01", 
+  "set_piece.n.01", 
+  "fake.n.01", 
+  "photomontage.n.01", 
+  "anaglyph.n.01"
+ ], 
+ "cluster156": [
+  "barren.n.01", 
+  "desert.n.01", 
+  "countryside.n.01", 
+  "field.n.01", 
+  "virginia.n.02", 
+  "site.n.01", 
+  "frontier.n.01", 
+  "scenario.n.02"
+ ], 
+ "cluster157": [
+  "development.n.06", 
+  "borderland.n.01"
+ ], 
+ "cluster154": [
+  "regeneration.n.01", 
+  "evolution.n.02", 
+  "adaptation.n.02"
+ ], 
+ "cluster155": [
+  "solitude.n.02", 
+  "solitude.n.01"
+ ], 
+ "cluster152": [
+  "apple.n.01", 
+  "vegetable.n.01", 
+  "raspberry.n.02"
+ ], 
+ "cluster153": [
+  "olive_tree.n.01"
+ ], 
+ "cluster150": [
+  "nostalgia.n.01", 
+  "fetish.n.01"
+ ], 
+ "cluster151": [
+  "newspaper.n.01", 
+  "television.n.01", 
+  "photojournalism.n.01"
+ ], 
+ "cluster279": [
+  "self.n.01", 
+  "mystery.n.01"
+ ], 
+ "cluster278": [
+  "westernization.n.01", 
+  "urbanization.n.02"
+ ], 
+ "cluster277": [
+  "construction.n.01", 
+  "drawing.n.03", 
+  "realization.n.02"
+ ], 
+ "cluster276": [
+  "public.s.02"
+ ], 
+ "cluster275": [
+  "bourgeois.s.01"
+ ], 
+ "cluster274": [
+  "vapor.n.01", 
+  "alloy.n.01"
+ ], 
+ "cluster273": [
+  "break.n.16", 
+  "break.n.13", 
+  "inhabitancy.n.01", 
+  "radiation.n.02", 
+  "exile.n.03"
+ ], 
+ "cluster272": [
+  "reconstruction.n.03", 
+  "misinterpretation.n.01", 
+  "interpretation.n.03", 
+  "eisegesis.n.01"
+ ], 
+ "cluster271": [
+  "oil_industry.n.01", 
+  "hollywood.n.01"
+ ], 
+ "cluster270": [
+  "pathology.n.01", 
+  "anatomy.n.01"
+ ], 
+ "cluster376": [
+  "censor.v.02", 
+  "measure.v.04"
+ ], 
+ "cluster86": [
+  "abstract_expressionism.n.01", 
+  "labor_movement.n.01", 
+  "civil_rights_movement.n.01", 
+  "pop_art.n.01", 
+  "surrealism.n.01", 
+  "minimalism.n.01", 
+  "naturalism.n.02"
+ ], 
+ "cluster85": [
+  "indexing.n.01", 
+  "exploitation.n.02"
+ ], 
+ "cluster84": [
+  "application.n.07", 
+  "interaction.n.01", 
+  "performance.n.03", 
+  "aggression.n.03"
+ ], 
+ "cluster372": [
+  "dislocation.n.02", 
+  "kick.n.01"
+ ], 
+ "cluster82": [
+  "limit.n.01", 
+  "margin.n.05", 
+  "erasure.n.02", 
+  "spectrum.n.02"
+ ], 
+ "cluster81": [
+  "autobiography.n.01", 
+  "mistranslation.n.01", 
+  "timeline.n.01", 
+  "historical_document.n.01", 
+  "record.n.01", 
+  "memo.n.01", 
+  "translation.n.01", 
+  "history.n.02"
+ ], 
+ "cluster80": [
+  "shiah.n.01", 
+  "religion.n.02", 
+  "institution.n.01", 
+  "hospital.n.02"
+ ], 
+ "cluster89": [
+  "subjectivity.n.01", 
+  "absurdity.n.02", 
+  "objectivity.n.01", 
+  "individuality.n.01", 
+  "femininity.n.01", 
+  "recklessness.n.01", 
+  "masculinity.n.02"
+ ], 
+ "cluster88": [
+  "isolation.n.03", 
+  "intervention.n.01", 
+  "american_revolution.n.01", 
+  "obedience.n.01", 
+  "congregation.n.03", 
+  "protest.n.02"
+ ], 
+ "cluster389": [
+  "decay.v.02"
+ ], 
+ "cluster388": [
+  "concrete.a.01"
+ ], 
+ "cluster383": [
+  "head.n.01", 
+  "hand.n.01", 
+  "limb.n.01", 
+  "skeletal_system.n.01"
+ ], 
+ "cluster382": [
+  "epic.a.02"
+ ], 
+ "cluster381": [
+  "self-destruct.v.01"
+ ], 
+ "cluster380": [
+  "oneness.n.01"
+ ], 
+ "cluster387": [
+  "commercialization.n.01"
+ ], 
+ "cluster386": [
+  "consumerism.n.01"
+ ], 
+ "cluster385": [
+  "look.n.02"
+ ], 
+ "cluster384": [
+  "inscription.n.01", 
+  "literature.n.01", 
+  "diary.n.01"
+ ], 
+ "cluster208": [
+  "feminist_movement.n.01", 
+  "chance.n.03"
+ ], 
+ "cluster209": [
+  "dictatorship.n.01", 
+  "democracy.n.02", 
+  "technocracy.n.01"
+ ], 
+ "cluster202": [
+  "play.n.08", 
+  "play.n.14", 
+  "athletic_game.n.01", 
+  "escape.n.02"
+ ], 
+ "cluster203": [
+  "apparition.n.01", 
+  "zombi.n.01"
+ ], 
+ "cluster200": [
+  "two-dimensionality.n.01", 
+  "angularity.n.02", 
+  "dimensionality.n.01", 
+  "shape.n.01", 
+  "symmetry.n.01"
+ ], 
+ "cluster201": [
+  "chart.n.01", 
+  "graph.n.01", 
+  "drawing.n.01", 
+  "projection.n.02"
+ ], 
+ "cluster206": [
+  "polygon.n.01", 
+  "wedge.n.01"
+ ], 
+ "cluster207": [
+  "glaze.n.03", 
+  "glamor.n.01"
+ ], 
+ "cluster204": [
+  "practicability.n.01", 
+  "function.n.02"
+ ], 
+ "cluster205": [
+  "suburb.n.01", 
+  "housing_development.n.01"
+ ], 
+ "cluster10": [
+  "surface.n.01"
+ ], 
+ "cluster11": [
+  "hybrid.n.02", 
+  "model.n.01", 
+  "tao.n.02", 
+  "restriction.n.01", 
+  "vector.n.01"
+ ], 
+ "cluster12": [
+  "felt.n.01", 
+  "building_block.n.02", 
+  "transportation_system.n.01", 
+  "skin.n.02", 
+  "screen.n.01", 
+  "graffito.n.01", 
+  "yo-yo.n.01", 
+  "variation.n.05", 
+  "doll.n.01", 
+  "concrete.n.01", 
+  "membrane.n.01", 
+  "camouflage.n.02", 
+  "well.n.01", 
+  "depository.n.01"
+ ], 
+ "cluster13": [
+  "sketchbook.n.01", 
+  "notebook.n.01", 
+  "handicraft.n.01"
+ ], 
+ "cluster14": [
+  "opacity.n.02", 
+  "obscureness.n.03", 
+  "noise.n.05"
+ ], 
+ "cluster15": [
+  "west.n.03", 
+  "west_coast.n.01", 
+  "place.n.02", 
+  "gaza_strip.n.01", 
+  "kurdistan.n.01", 
+  "territory.n.03", 
+  "latin_america.n.01", 
+  "middle_east.n.01"
+ ], 
+ "cluster16": [
+  "curtain.n.01", 
+  "rug.n.01"
+ ], 
+ "cluster17": [
+  "wrestling.n.02", 
+  "charades.n.01", 
+  "surfing.n.01", 
+  "virtual_reality.n.01"
+ ], 
+ "cluster18": [
+  "embodiment.n.01", 
+  "prisoner.n.01", 
+  "zombi.n.03", 
+  "life.n.10", 
+  "revolutionist.n.01", 
+  "lesbian.n.01", 
+  "hero.n.01", 
+  "sibling.n.01", 
+  "religious.n.01", 
+  "alter_ego.n.01", 
+  "outcast.n.01", 
+  "woman.n.01", 
+  "jesus.n.01", 
+  "outsider.n.02", 
+  "swimmer.n.02", 
+  "anachronism.n.03", 
+  "adolescent.n.01", 
+  "child.n.01", 
+  "stand-in.n.01", 
+  "conquistador.n.01"
+ ], 
+ "cluster19": [
+  "action.n.01"
+ ], 
+ "cluster59": [
+  "materialization.n.01", 
+  "flow.n.04", 
+  "erosion.n.01", 
+  "origin.n.05", 
+  "soak.n.01"
+ ], 
+ "cluster329": [
+  "life.n.02", 
+  "purpose.n.01"
+ ], 
+ "cluster328": [
+  "happening.n.01"
+ ], 
+ "cluster8": [
+  "transformation.n.05", 
+  "explosion.n.02"
+ ], 
+ "cluster9": [
+  "wave.n.01"
+ ], 
+ "cluster2": [
+  "snapshot.n.01", 
+  "still.n.01", 
+  "scene.n.04", 
+  "reflection.n.05", 
+  "rendering.n.06", 
+  "black_and_white.n.02", 
+  "spectacle.n.02", 
+  "photocopy.n.01", 
+  "delineation.n.02", 
+  "collage.n.01", 
+  "figure.n.04", 
+  "diagram.n.01", 
+  "pen-and-ink.n.01", 
+  "photographic_print.n.01", 
+  "replica.n.01", 
+  "sketch.n.01", 
+  "iconography.n.01"
+ ], 
+ "cluster3": [
+  "library.n.05", 
+  "hotel.n.01", 
+  "ruin.n.02", 
+  "architecture.n.01", 
+  "house.n.01"
+ ], 
+ "cluster0": [
+  "foreground.v.01"
+ ], 
+ "cluster1": [
+  "figuration.n.01"
+ ], 
+ "cluster6": [
+  "restriction.n.03", 
+  "containment.n.03"
+ ], 
+ "cluster7": [
+  "hazardousness.n.01", 
+  "poverty.n.01", 
+  "vulnerability.n.01", 
+  "depression.n.02", 
+  "pollution.n.01", 
+  "blankness.n.01"
+ ], 
+ "cluster4": [
+  "video_recording.n.01", 
+  "upright.n.01", 
+  "drum.n.01", 
+  "monitor.n.04", 
+  "gun.n.01", 
+  "tape.n.04"
+ ], 
+ "cluster5": [
+  "hong_kong.n.01", 
+  "los_angeles.n.01", 
+  "guangzhou.n.01", 
+  "san_francisco.n.01", 
+  "lagos.n.01", 
+  "new_york.n.01"
+ ], 
+ "cluster101": [
+  "kitchenware.n.01", 
+  "porcelain.n.01", 
+  "china.n.02", 
+  "earthenware.n.01"
+ ], 
+ "cluster100": [
+  "communism.n.01", 
+  "mercantilism.n.01"
+ ], 
+ "cluster103": [
+  "body_part.n.01", 
+  "buttocks.n.01"
+ ], 
+ "cluster102": [
+  "exercise.n.01", 
+  "experiment.n.03", 
+  "struggle.n.03", 
+  "surveillance.n.01"
+ ], 
+ "cluster105": [
+  "christmas.n.01", 
+  "seventies.n.01", 
+  "childhood.n.01", 
+  "full_moon.n.01", 
+  "afterlife.n.01", 
+  "ephemera.n.01", 
+  "night.n.01"
+ ], 
+ "cluster104": [
+  "color.n.01", 
+  "hue.n.01", 
+  "darkness.n.05", 
+  "light.n.07"
+ ], 
+ "cluster351": [
+  "flag.n.01", 
+  "stripe.n.05"
+ ], 
+ "cluster106": [
+  "imitation.n.03", 
+  "duplication.n.02", 
+  "reproduction.n.04"
+ ], 
+ "cluster109": [
+  "shoebox.n.02", 
+  "garbage.n.03", 
+  "baby_buggy.n.01", 
+  "plastic_bag.n.01"
+ ], 
+ "cluster108": [
+  "fluctuation.n.03", 
+  "randomness.n.02"
+ ], 
+ "cluster321": [
+  "money.n.02", 
+  "real_property.n.01"
+ ], 
+ "cluster320": [
+  "city.n.01"
+ ], 
+ "cluster323": [
+  "self-portrait.n.01"
+ ], 
+ "cluster322": [
+  "desire.n.02", 
+  "greed.n.01"
+ ], 
+ "cluster50": [
+  "footprint.n.02"
+ ], 
+ "cluster324": [
+  "play.n.05", 
+  "agency.n.03"
+ ], 
+ "cluster52": [
+  "ubiquity.n.01", 
+  "thereness.n.01", 
+  "reality.n.02", 
+  "reality.n.03", 
+  "potential.n.01"
+ ], 
+ "cluster249": [
+  "voice_over.n.01", 
+  "voice.n.02"
+ ], 
+ "cluster408": [
+  "spiritual.s.03"
+ ], 
+ "cluster409": [
+  "openness.n.02", 
+  "sociality.n.01"
+ ], 
+ "cluster404": [
+  "sarcophagus.n.01", 
+  "toolbox.n.01"
+ ], 
+ "cluster405": [
+  "contemplation.n.01", 
+  "gaze.n.01"
+ ], 
+ "cluster406": [
+  "youth_culture.n.01", 
+  "hip-hop.n.01"
+ ], 
+ "cluster407": [
+  "artist.n.01"
+ ], 
+ "cluster400": [
+  "cognition.n.01"
+ ], 
+ "cluster401": [
+  "weed.n.01"
+ ], 
+ "cluster402": [
+  "question.v.01"
+ ], 
+ "cluster403": [
+  "utilitarian.s.01"
+ ], 
+ "cluster87": [
+  "society.n.01", 
+  "organized_crime.n.01", 
+  "civilization.n.01"
+ ], 
+ "cluster377": [
+  "export.n.01", 
+  "merchandise.n.01"
+ ], 
+ "cluster374": [
+  "connection.n.01", 
+  "materiality.n.01"
+ ], 
+ "cluster375": [
+  "motion.n.03", 
+  "motion.n.06"
+ ], 
+ "cluster83": [
+  "duration.n.03"
+ ], 
+ "cluster373": [
+  "tension.n.03"
+ ], 
+ "cluster370": [
+  "void.n.02", 
+  "expanse.n.03"
+ ], 
+ "cluster371": [
+  "disorienting.a.01"
+ ], 
+ "cluster246": [
+  "zionism.n.01", 
+  "imperialism.n.01", 
+  "ideology.n.02"
+ ], 
+ "cluster247": [
+  "minaret.n.01", 
+  "wall.n.01", 
+  "refuge.n.03", 
+  "dwelling.n.01", 
+  "billboard.n.01"
+ ], 
+ "cluster244": [
+  "rock_'n'_roll.n.01", 
+  "pop_music.n.01", 
+  "punk_rock.n.01"
+ ], 
+ "cluster245": [
+  "currency.n.01", 
+  "norm.n.01", 
+  "money.n.01"
+ ], 
+ "cluster58": [
+  "tradition.n.01", 
+  "education.n.02", 
+  "experience.n.02"
+ ], 
+ "cluster243": [
+  "sex.n.04", 
+  "pose.n.02"
+ ], 
+ "cluster240": [
+  "apocalypse.n.01", 
+  "crash.n.02"
+ ], 
+ "cluster241": [
+  "walk.v.01", 
+  "sneak.v.01"
+ ], 
+ "cluster54": [
+  "cinema.n.02", 
+  "chapel.n.01", 
+  "world_trade_center.n.01", 
+  "shrine.n.01"
+ ], 
+ "cluster55": [
+  "gentrification.n.01", 
+  "reassembly.n.01", 
+  "re-formation.n.01"
+ ], 
+ "cluster56": [
+  "jack.n.12"
+ ], 
+ "cluster57": [
+  "medium.n.01", 
+  "system.n.01"
+ ], 
+ "cluster325": [
+  "prominence.n.01", 
+  "anonymity.n.01", 
+  "visibility.n.02"
+ ], 
+ "cluster51": [
+  "urban_planning.n.01", 
+  "symbology.n.01", 
+  "artificial_intelligence.n.01", 
+  "ontology.n.02", 
+  "aesthetics.n.01"
+ ], 
+ "cluster248": [
+  "irish_republican_army.n.01", 
+  "khmer_rouge.n.01"
+ ], 
+ "cluster53": [
+  "brazil.n.01", 
+  "mali.n.01", 
+  "north_korea.n.01", 
+  "vietnam.n.01", 
+  "china.n.01", 
+  "uganda.n.01", 
+  "chile.n.01", 
+  "pakistan.n.01", 
+  "croatia.n.01", 
+  "east_germany.n.01", 
+  "albania.n.01", 
+  "mexico.n.01", 
+  "peru.n.01", 
+  "poland.n.01", 
+  "iraq.n.01", 
+  "france.n.01", 
+  "california.n.01", 
+  "cambodia.n.01", 
+  "lebanon.n.01", 
+  "india.n.01", 
+  "venezuela.n.01", 
+  "zimbabwe.n.01"
+ ], 
+ "cluster431": [
+  "outmode.v.01"
+ ], 
+ "cluster378": [
+  "vertical.a.01"
+ ], 
+ "cluster331": [
+  "tarot_card.n.01", 
+  "cardboard.n.01"
+ ], 
+ "cluster430": [
+  "vein.n.03", 
+  "monolithic.s.02", 
+  "monotony.n.01", 
+  "horizontal.a.01", 
+  "layer.v.01", 
+  "bind.v.02", 
+  "elsewhere.r.01", 
+  "human.a.01", 
+  "cyclic.s.05", 
+  "guevara.n.01", 
+  "traditional.a.01", 
+  "act.v.03", 
+  "testimony.n.02", 
+  "earthy.a.04", 
+  "chinese.a.01", 
+  "laborer.n.01", 
+  "bohemian.s.02", 
+  "enigmatic.s.01", 
+  "enigmatic.s.02", 
+  "massive.s.01", 
+  "displace.v.01", 
+  "fantastic.s.05", 
+  "invisible.a.01", 
+  "evanescent.s.01", 
+  "ghost.n.03", 
+  "accelerate.v.01", 
+  "rushmore.n.01", 
+  "distance.v.01", 
+  "daughter.n.01", 
+  "bodied.s.02", 
+  "shadow.n.01", 
+  "popular.s.04", 
+  "farfetched.s.01", 
+  "minor.s.10", 
+  "humor.n.02", 
+  "scream.v.03", 
+  "experiment.v.01", 
+  "indian.a.02", 
+  "between.r.02", 
+  "global.s.01", 
+  "depopulate.v.01", 
+  "drift.v.06", 
+  "experience.v.03", 
+  "fanciful.s.03", 
+  "misapply.v.01", 
+  "diffuse.s.01", 
+  "combine.v.04", 
+  "preternatural.s.01", 
+  "wet.a.01", 
+  "open-ended.s.01", 
+  "otiose.s.01", 
+  "ethereal.s.04", 
+  "sadomasochism.n.01", 
+  "ostentatious.a.01", 
+  "trace.v.02", 
+  "linguistic.a.01", 
+  "politics.n.01", 
+  "inactive.s.10", 
+  "hover.v.03", 
+  "nonconforming.s.01", 
+  "unknown.a.01", 
+  "useless.a.01", 
+  "temporal.s.01", 
+  "formulaic.s.01", 
+  "deform.v.05", 
+  "disorient.v.01", 
+  "vibrate.v.01", 
+  "natural.a.02", 
+  "context.n.01", 
+  "espresso_maker.n.01", 
+  "feminize.v.02", 
+  "glacier.n.01", 
+  "revisit.v.01", 
+  "solidarity.n.01", 
+  "scissors.n.01", 
+  "dwell.v.04", 
+  "iconic.a.01", 
+  "aboriginal.s.03", 
+  "slow.a.02", 
+  "omnipresent.s.01", 
+  "read.v.01", 
+  "heroism.n.01", 
+  "analog_clock.n.01", 
+  "indistinguishable.a.02", 
+  "imagine.v.01", 
+  "urban.a.02", 
+  "public.a.01", 
+  "nonlinear.a.01", 
+  "everyday.s.01", 
+  "sensual.s.02", 
+  "strange.a.01", 
+  "stage.v.02", 
+  "greatest.s.01", 
+  "surrogate.n.01", 
+  "erotic.s.01", 
+  "choreograph.v.02", 
+  "pause.n.01", 
+  "delicate.s.03", 
+  "african.a.01", 
+  "idealized.s.01", 
+  "subconscious.s.01", 
+  "in-between.s.01", 
+  "explicit.a.01", 
+  "transgender.s.01", 
+  "illuminate.v.03", 
+  "plain.a.02", 
+  "marx.n.05", 
+  "spontaneous.a.01", 
+  "challenge.v.01", 
+  "debate.v.01", 
+  "playful.a.01", 
+  "outside.r.01", 
+  "alternative.s.03", 
+  "mountain.n.01", 
+  "irreverent.a.01", 
+  "binary.s.02", 
+  "armless.a.01", 
+  "participatory.s.01", 
+  "psychedelic.s.02", 
+  "celluloid.n.01", 
+  "overlay.v.01", 
+  "strenuous.s.01", 
+  "apolitical.s.01", 
+  "escape.v.05", 
+  "impart.v.03", 
+  "individual.s.02", 
+  "sculptural.a.01", 
+  "spirituality.n.02", 
+  "faint.s.05", 
+  "hypocrisy.n.02", 
+  "imperceptible.a.01", 
+  "celebrity.n.01", 
+  "philanthropy.n.01", 
+  "empty.a.01", 
+  "apocalyptic.s.01", 
+  "bodily.s.02", 
+  "political.a.02", 
+  "personal.a.01", 
+  "spin.v.01", 
+  "affectional.s.01", 
+  "carpenter.n.01", 
+  "edit.v.03", 
+  "energetic.a.01", 
+  "father.n.01", 
+  "musicianship.n.01", 
+  "reenact.v.01", 
+  "deface.v.01", 
+  "utopian.a.02", 
+  "domestic.a.02", 
+  "obsoleteness.n.01", 
+  "family.n.04", 
+  "undepicted.s.01", 
+  "photographic.a.01", 
+  "elementary.s.03", 
+  "glossy.s.03", 
+  "kinetic.a.01", 
+  "postcard.n.01", 
+  "planate.s.01", 
+  "politician.n.03", 
+  "dreamlike.s.01", 
+  "replace.v.01", 
+  "geometric.s.01", 
+  "atmospheric.a.01", 
+  "confused.s.03", 
+  "ritual.a.02", 
+  "ritual.a.01", 
+  "supernatural.a.01", 
+  "recreate.v.04", 
+  "point.n.09", 
+  "average.s.02", 
+  "minimal.a.01", 
+  "eerie.s.01", 
+  "ceremonial.s.01", 
+  "fragile.s.02", 
+  "stubborn.a.01", 
+  "junoesque.s.01", 
+  "barbed_wire.n.01", 
+  "saurian.a.01", 
+  "tropical.s.01", 
+  "reorient.v.03", 
+  "brazilian.a.01", 
+  "node.n.01", 
+  "misremember.v.01", 
+  "discordant.s.02", 
+  "ductile.s.02", 
+  "archetypal.s.01", 
+  "black.a.02", 
+  "subtractive.a.01", 
+  "founder.n.02", 
+  "domestic.n.01", 
+  "frame.v.02", 
+  "low.s.04", 
+  "subsequently.r.01", 
+  "fluidity.n.01", 
+  "embrace.v.02", 
+  "unreal.a.02", 
+  "calligraphy.n.01", 
+  "amateurish.s.01", 
+  "african-american.n.01", 
+  "poetic.a.01", 
+  "artificial.s.03", 
+  "disheveled.s.01", 
+  "collapse.v.01", 
+  "smile.n.01", 
+  "nonhuman.a.01", 
+  "encyclopedic.s.01", 
+  "find.v.01", 
+  "creepy.s.02", 
+  "coincident.s.01", 
+  "soviet.a.01", 
+  "translucent.s.01", 
+  "epic.s.01", 
+  "deadpan.r.01", 
+  "headless.a.01", 
+  "dateless.s.04", 
+  "dateless.s.03", 
+  "stripper.n.03", 
+  "disquieting.s.01", 
+  "naive.a.01", 
+  "sidewalk.n.01", 
+  "split.s.02", 
+  "arranged.s.03", 
+  "light.n.01", 
+  "incomplete.a.01", 
+  "nowhere.r.01"
+ ], 
+ "cluster379": [
+  "camera.n.01"
+ ], 
+ "cluster433": [
+  "trip.n.02"
+ ], 
+ "cluster344": [
+  "bird.n.01", 
+  "rodent.n.01", 
+  "owl.n.01"
+ ], 
+ "cluster435": [
+  "valued.s.02"
+ ], 
+ "cluster434": [
+  "doodle.v.01", 
+  "pencil.v.01"
+ ], 
+ "cluster437": [
+  "striate.a.01"
+ ], 
+ "cluster436": [
+  "caption.n.03", 
+  "line.n.05", 
+  "text.n.01"
+ ], 
+ "cluster29": [
+  "spaceflight.n.01", 
+  "voyage.n.02", 
+  "exploration.n.01", 
+  "tour.n.01"
+ ], 
+ "cluster28": [
+  "game.n.01", 
+  "procedure.n.01", 
+  "acting.n.01", 
+  "measurement.n.01", 
+  "representation.n.10", 
+  "domesticity.n.02", 
+  "release.n.09", 
+  "market.n.01", 
+  "behavior.n.04", 
+  "protection.n.01", 
+  "support.n.08"
+ ], 
+ "cluster21": [
+  "landscape.n.03", 
+  "folk_art.n.01", 
+  "modernism.n.01", 
+  "choreography.n.02", 
+  "painting.n.01", 
+  "pastiche.n.02", 
+  "primitivism.n.02"
+ ], 
+ "cluster20": [
+  "dream.n.01", 
+  "evocation.n.01", 
+  "imagination.n.02", 
+  "button.n.04", 
+  "emblem.n.02"
+ ], 
+ "cluster23": [
+  "reclamation.n.03", 
+  "appropriation.n.03", 
+  "failure.n.01", 
+  "rediscovery.n.01", 
+  "abandonment.n.03", 
+  "conflict.n.01", 
+  "kiss.n.01", 
+  "engagement.n.07", 
+  "affirmation.n.02", 
+  "revolution.n.02", 
+  "legalization.n.01"
+ ], 
+ "cluster22": [
+  "world_war.n.01", 
+  "civil_war.n.01", 
+  "world_war_ii.n.01", 
+  "vietnam_war.n.01", 
+  "war.n.01"
+ ], 
+ "cluster25": [
+  "humanism.n.02", 
+  "amateurism.n.01", 
+  "feminism.n.01", 
+  "spirit.n.04", 
+  "animism.n.01", 
+  "individualism.n.02", 
+  "formalism.n.01", 
+  "possibility.n.01", 
+  "magic.n.01", 
+  "phenomenology.n.01", 
+  "nationalism.n.02"
+ ], 
+ "cluster24": [
+  "herbarium.n.01", 
+  "law.n.01", 
+  "exhibition.n.02", 
+  "signage.n.01", 
+  "data.n.01", 
+  "collage.n.02", 
+  "art_exhibition.n.01", 
+  "mythology.n.01", 
+  "collection.n.01", 
+  "east.n.02", 
+  "amalgam.n.02", 
+  "pile.n.01"
+ ], 
+ "cluster27": [
+  "newspaper.n.03", 
+  "book.n.02", 
+  "fragment.n.03"
+ ], 
+ "cluster26": [
+  "prediction.n.01", 
+  "prefiguration.n.02", 
+  "free_association.n.01"
+ ], 
+ "cluster394": [
+  "refugee.n.01", 
+  "exile.n.01"
+ ], 
+ "cluster467": [
+  "functionality.n.01"
+ ], 
+ "cluster396": [
+  "government_agent.n.01"
+ ], 
+ "cluster397": [
+  "ritualize.v.01"
+ ], 
+ "cluster462": [
+  "annihilation.n.02"
+ ], 
+ "cluster463": [
+  "fragility.n.01"
+ ], 
+ "cluster460": [
+  "stagy.s.01"
+ ], 
+ "cluster393": [
+  "space.n.01", 
+  "inheritance.n.04"
+ ], 
+ "cluster149": [
+  "form.n.03", 
+  "arrangement.n.03", 
+  "grid.n.01", 
+  "configuration.n.01"
+ ], 
+ "cluster148": [
+  "natural_resource.n.01", 
+  "security.n.02", 
+  "intangible.n.01"
+ ], 
+ "cluster145": [
+  "floor.n.01"
+ ], 
+ "cluster144": [
+  "loop.n.02", 
+  "spiral.n.01", 
+  "diagonal.n.01", 
+  "periphery.n.01"
+ ], 
+ "cluster147": [
+  "alchemy.n.02", 
+  "pseudoscience.n.01"
+ ], 
+ "cluster146": [
+  "censoring.n.02", 
+  "expunction.n.01"
+ ], 
+ "cluster141": [
+  "incorporation.n.01"
+ ], 
+ "cluster140": [
+  "landscape.n.01", 
+  "place.n.04"
+ ], 
+ "cluster143": [
+  "futurity.n.02", 
+  "lateness.n.01", 
+  "simultaneity.n.01", 
+  "modernity.n.01"
+ ], 
+ "cluster142": [
+  "remains.n.01", 
+  "property.n.05", 
+  "land.n.02", 
+  "discard.n.01", 
+  "object.n.01"
+ ], 
+ "cluster98": [
+  "panic.n.01", 
+  "comfort.n.05", 
+  "state.n.06"
+ ], 
+ "cluster283": [
+  "clue.n.02", 
+  "sign.n.01"
+ ], 
+ "cluster280": [
+  "anti-semitism.n.01", 
+  "racism.n.01"
+ ], 
+ "cluster281": [
+  "animation.n.05", 
+  "portraiture.n.02"
+ ], 
+ "cluster286": [
+  "die.n.01", 
+  "tile.n.01"
+ ], 
+ "cluster287": [
+  "illusion.n.02", 
+  "error.n.03", 
+  "connotation.n.02"
+ ], 
+ "cluster284": [
+  "government.n.01", 
+  "central_intelligence_agency.n.01", 
+  "military.n.01", 
+  "family.n.01", 
+  "police.n.01"
+ ], 
+ "cluster285": [
+  "color.n.04", 
+  "race.n.03", 
+  "white_race.n.01"
+ ], 
+ "cluster90": [
+  "collapse.n.01", 
+  "rupture.n.01", 
+  "wound.n.01", 
+  "blindness.n.01", 
+  "disability.n.01"
+ ], 
+ "cluster91": [
+  "contradiction.n.01", 
+  "opposition.n.02", 
+  "polarity.n.02", 
+  "comparison.n.02"
+ ], 
+ "cluster288": [
+  "semiotics.n.01", 
+  "empiricism.n.01", 
+  "deconstruction.n.01", 
+  "confucianism.n.01"
+ ], 
+ "cluster93": [
+  "color.n.08", 
+  "stain.n.01", 
+  "form.n.07", 
+  "disfigurement.n.01", 
+  "perspective.n.02", 
+  "countenance.n.01"
+ ], 
+ "cluster94": [
+  "sarcasm.n.01", 
+  "pun.n.01", 
+  "cartoon.n.01", 
+  "comic_strip.n.01", 
+  "fun.n.02"
+ ], 
+ "cluster95": [
+  "young.n.09", 
+  "nation.n.02", 
+  "french.n.02", 
+  "class.n.03"
+ ], 
+ "cluster96": [
+  "prison.n.02", 
+  "absurd.n.01", 
+  "environment.n.01"
+ ], 
+ "cluster97": [
+  "shipwreck.n.01", 
+  "ship.n.01", 
+  "zeppelin.n.02"
+ ], 
+ "cluster365": [
+  "hail.n.01", 
+  "blizzard.n.01"
+ ], 
+ "cluster364": [
+  "embodiment.n.03"
+ ], 
+ "cluster367": [
+  "privacy.n.01"
+ ], 
+ "cluster366": [
+  "office.n.01"
+ ], 
+ "cluster361": [
+  "rustle.n.01"
+ ], 
+ "cluster360": [
+  "dystopia.n.01", 
+  "unemployment.n.01", 
+  "being.n.01", 
+  "freedom.n.01", 
+  "relationship.n.02", 
+  "utopia.n.02"
+ ], 
+ "cluster363": [
+  "trace.n.02", 
+  "line.n.02", 
+  "gesture.n.03", 
+  "mark.n.04"
+ ], 
+ "cluster362": [
+  "dressage.n.01"
+ ], 
+ "cluster369": [
+  "cut.v.01", 
+  "dissect.v.01"
+ ], 
+ "cluster368": [
+  "blood.n.01", 
+  "saliva.n.01"
+ ], 
+ "cluster448": [
+  "baton.n.01"
+ ], 
+ "cluster449": [
+  "negative.n.02", 
+  "cellular_telephone.n.01"
+ ], 
+ "cluster440": [
+  "k.n.06", 
+  "letter.n.02"
+ ], 
+ "cluster441": [
+  "process.n.06"
+ ], 
+ "cluster442": [
+  "pure.s.04"
+ ], 
+ "cluster443": [
+  "engulf.v.02"
+ ], 
+ "cluster444": [
+  "genealogy.n.02", 
+  "architecture.n.02"
+ ], 
+ "cluster445": [
+  "tower_of_babel.n.01", 
+  "cathedral.n.02", 
+  "art_school.n.01"
+ ], 
+ "cluster446": [
+  "haphazard.s.02"
+ ], 
+ "cluster447": [
+  "disconnected.s.02"
+ ], 
+ "cluster219": [
+  "retrospective.n.01", 
+  "gender.n.01", 
+  "knot.n.01"
+ ], 
+ "cluster218": [
+  "9/11.n.01"
+ ], 
+ "cluster211": [
+  "immigrant.n.01"
+ ], 
+ "cluster210": [
+  "psychotherapy.n.02", 
+  "therapy.n.01"
+ ], 
+ "cluster213": [
+  "confrontation.n.05"
+ ], 
+ "cluster212": [
+  "ideal.n.01", 
+  "concept.n.01"
+ ], 
+ "cluster215": [
+  "river.n.01", 
+  "amazon.n.03"
+ ], 
+ "cluster214": [
+  "progress.n.02", 
+  "migration.n.01", 
+  "crawl.n.01", 
+  "travel.n.01"
+ ], 
+ "cluster217": [
+  "ethic.n.02", 
+  "scientific_method.n.01"
+ ], 
+ "cluster216": [
+  "criticism.n.02", 
+  "counterculture.n.01", 
+  "mass_culture.n.01"
+ ], 
+ "cluster65": [
+  "navaho.n.01", 
+  "mohawk.n.01", 
+  "aztec.n.01", 
+  "sioux.n.01"
+ ], 
+ "cluster64": [
+  "disaster.n.03", 
+  "genocide.n.01", 
+  "demolition.n.02"
+ ], 
+ "cluster67": [
+  "appearance.n.01", 
+  "opacity.n.03", 
+  "humor.n.04", 
+  "uncertainty.n.01", 
+  "positivity.n.02", 
+  "humanness.n.01", 
+  "domesticity.n.01", 
+  "elegance.n.01", 
+  "power.n.01", 
+  "utility.n.02", 
+  "urbanity.n.02", 
+  "powerlessness.n.01", 
+  "simplicity.n.01", 
+  "materiality.n.02", 
+  "immobility.n.02", 
+  "difference.n.01", 
+  "nature.n.01", 
+  "morality.n.01"
+ ], 
+ "cluster66": [
+  "weapon.n.01"
+ ], 
+ "cluster61": [
+  "science_fiction.n.01", 
+  "murder_mystery.n.01", 
+  "mystery.n.02", 
+  "myth.n.01"
+ ], 
+ "cluster60": [
+  "constructivist.n.01", 
+  "duchamp.n.01", 
+  "songwriter.n.01", 
+  "stella.n.01", 
+  "matisse.n.01", 
+  "magritte.n.01"
+ ], 
+ "cluster63": [
+  "play.n.01", 
+  "bible.n.01"
+ ], 
+ "cluster62": [
+  "dialogue.n.01", 
+  "regionalism.n.01", 
+  "motto.n.01", 
+  "vernacular.n.02", 
+  "conversation.n.01", 
+  "press_conference.n.01", 
+  "ambiguity.n.01", 
+  "speech.n.02"
+ ], 
+ "cluster69": [
+  "fascism.n.01", 
+  "nazism.n.01", 
+  "collectivism.n.02", 
+  "anarchism.n.01", 
+  "marxism.n.01", 
+  "neoliberalism.n.01", 
+  "democracy.n.01", 
+  "position.n.03"
+ ], 
+ "cluster68": [
+  "makeup.n.01"
+ ], 
+ "cluster48": [
+  "forest.n.02", 
+  "ireland.n.02", 
+  "central_america.n.01", 
+  "archipelago.n.01", 
+  "korea.n.01", 
+  "taiwan.n.02", 
+  "island.n.01"
+ ], 
+ "cluster289": [
+  "logo.n.01", 
+  "symbolism.n.01"
+ ], 
+ "cluster134": [
+  "violence.n.01", 
+  "contact.n.01"
+ ], 
+ "cluster135": [
+  "motorcycle.n.01", 
+  "car.n.01"
+ ], 
+ "cluster136": [
+  "blight.n.01", 
+  "ruin.n.01", 
+  "devastation.n.01"
+ ], 
+ "cluster137": [
+  "wit.n.01", 
+  "narrative.n.01", 
+  "meaning.n.01", 
+  "information.n.01", 
+  "fairytale.n.01", 
+  "nonsense.n.01"
+ ], 
+ "cluster130": [
+  "horizon.n.01", 
+  "outer_space.n.01", 
+  "space.n.02"
+ ], 
+ "cluster131": [
+  "development.n.02", 
+  "photography.n.02", 
+  "variation.n.07", 
+  "degeneration.n.01"
+ ], 
+ "cluster132": [
+  "fictional_character.n.01", 
+  "imagination.n.01", 
+  "santa_claus.n.01", 
+  "extraterrestrial_being.n.01", 
+  "utopia.n.04", 
+  "fantasy.n.01", 
+  "fantasy_life.n.01"
+ ], 
+ "cluster133": [
+  "deviation.n.01", 
+  "cultural_revolution.n.01", 
+  "distortion.n.01"
+ ], 
+ "cluster138": [
+  "perception.n.04", 
+  "information.n.02"
+ ], 
+ "cluster139": [
+  "assimilation.n.01"
+ ], 
+ "cluster49": [
+  "rubbish.n.01", 
+  "debris.n.01"
+ ], 
+ "cluster230": [
+  "decoration.n.01", 
+  "ready-made.n.01", 
+  "commodity.n.01", 
+  "plaything.n.01", 
+  "antiquity.n.03", 
+  "fabric.n.01", 
+  "restoration.n.05", 
+  "americana.n.01"
+ ], 
+ "cluster413": [
+  "boundary_line.n.01", 
+  "silhouette.n.01", 
+  "border.n.05"
+ ], 
+ "cluster412": [
+  "pervert.n.01"
+ ], 
+ "cluster411": [
+  "pet.n.01", 
+  "scavenger.n.03"
+ ], 
+ "cluster410": [
+  "opera.n.01"
+ ], 
+ "cluster417": [
+  "parody.n.02"
+ ], 
+ "cluster416": [
+  "sensory_deprivation.n.01"
+ ], 
+ "cluster415": [
+  "unidentified_flying_object.n.01"
+ ], 
+ "cluster414": [
+  "snail.n.01", 
+  "mickey_mouse.n.01", 
+  "dog.n.01"
+ ], 
+ "cluster419": [
+  "loss.n.03"
+ ], 
+ "cluster418": [
+  "dam.n.01", 
+  "golden_gate_bridge.n.01", 
+  "gallery.n.03", 
+  "castle.n.02"
+ ], 
+ "cluster332": [
+  "turf_war.n.01", 
+  "fight.n.02"
+ ], 
+ "cluster333": [
+  "apparatus.n.01", 
+  "film.n.02", 
+  "gear.n.04", 
+  "tool.n.01", 
+  "scaffolding.n.01"
+ ], 
+ "cluster41": [
+  "division.n.12", 
+  "encounter.n.03", 
+  "metamorphosis.n.03", 
+  "ignition.n.03", 
+  "detachment.n.02"
+ ], 
+ "cluster40": [
+  "picture.n.01", 
+  "map.n.01", 
+  "copy.n.02", 
+  "model.n.04", 
+  "drawing.n.02", 
+  "photograph.n.01"
+ ], 
+ "cluster336": [
+  "pirate.v.01"
+ ], 
+ "cluster337": [
+  "lens.n.01", 
+  "car_bomb.n.01", 
+  "camera_lucida.n.01", 
+  "cash_machine.n.01", 
+  "mirror.n.01", 
+  "mousetrap.n.01", 
+  "assembly.n.01", 
+  "machinery.n.01", 
+  "lamp.n.01", 
+  "light.n.02"
+ ], 
+ "cluster484": [
+  "riddle.n.01"
+ ], 
+ "cluster485": [
+  "togetherness.n.01", 
+  "closeness.n.01"
+ ], 
+ "cluster486": [
+  "distance.n.01", 
+  "openness.n.01", 
+  "placement.n.01"
+ ], 
+ "cluster487": [
+  "slipknot.n.01", 
+  "light_bulb.n.01", 
+  "microphone.n.01"
+ ], 
+ "cluster480": [
+  "optical_illusion.n.01", 
+  "flare.n.07", 
+  "aberration.n.03", 
+  "gravity.n.01"
+ ], 
+ "cluster334": [
+  "trial_and_error.n.01"
+ ], 
+ "cluster482": [
+  "point_of_view.n.01", 
+  "slant.n.01"
+ ], 
+ "cluster483": [
+  "subsistence.n.02", 
+  "survival.n.01"
+ ], 
+ "cluster44": [
+  "culture.n.06"
+ ], 
+ "cluster488": [
+  "imitate.v.03"
+ ], 
+ "cluster489": [
+  "fantasy.n.02", 
+  "fiction.n.01", 
+  "dystopia.n.02"
+ ], 
+ "cluster255": [
+  "rocket.n.01"
+ ], 
+ "cluster254": [
+  "asia.n.01", 
+  "africa.n.01"
+ ], 
+ "cluster257": [
+  "tableau.n.01", 
+  "ordering.n.01", 
+  "sequence.n.01", 
+  "spectrum.n.01"
+ ], 
+ "cluster256": [
+  "meal.n.02", 
+  "moment.n.01"
+ ], 
+ "cluster318": [
+  "matrix.n.03", 
+  "hole.n.01", 
+  "view_angle.n.01"
+ ], 
+ "cluster250": [
+  "digit.n.01", 
+  "nine.n.01"
+ ], 
+ "cluster253": [
+  "iris.n.01", 
+  "flower.n.01", 
+  "tree.n.01"
+ ], 
+ "cluster252": [
+  "crab.n.01", 
+  "butterfly.n.01"
+ ], 
+ "cluster314": [
+  "violet.n.02", 
+  "blue.n.01", 
+  "red.n.01", 
+  "black.n.01", 
+  "complementary_color.n.01"
+ ], 
+ "cluster315": [
+  "substitute.n.01", 
+  "ersatz.n.01"
+ ], 
+ "cluster316": [
+  "language.n.01"
+ ], 
+ "cluster317": [
+  "interpenetration.n.02", 
+  "intrusion.n.02"
+ ], 
+ "cluster259": [
+  "salt.n.01", 
+  "acetate.n.01", 
+  "water.n.01", 
+  "firework.n.01"
+ ], 
+ "cluster311": [
+  "interact.v.01"
+ ], 
+ "cluster312": [
+  "capitalism.n.01", 
+  "economy.n.01", 
+  "network.n.01"
+ ], 
+ "cluster313": [
+  "aftermath.n.01", 
+  "reaction.n.05", 
+  "influence.n.04", 
+  "consequence.n.01", 
+  "aftereffect.n.01"
+ ], 
+ "cluster358": [
+  "music.n.01", 
+  "speech.n.03", 
+  "utterance.n.01"
+ ], 
+ "cluster290": [
+  "omission.n.03", 
+  "ellipsis.n.01"
+ ], 
+ "cluster428": [
+  "string.n.01", 
+  "adhesive_tape.n.01"
+ ], 
+ "cluster429": [
+  "collaboration.n.01", 
+  "representation.n.03"
+ ], 
+ "cluster38": [
+  "communication.n.01", 
+  "distribution.n.03", 
+  "stop.n.02"
+ ], 
+ "cluster39": [
+  "view.n.03", 
+  "scrutiny.n.02"
+ ], 
+ "cluster32": [
+  "automation.n.02", 
+  "urbanization.n.01", 
+  "silence.n.01", 
+  "guilt.n.01", 
+  "psychological_state.n.01", 
+  "purity.n.02", 
+  "participation.n.02", 
+  "emptiness.n.01", 
+  "light.n.06"
+ ], 
+ "cluster33": [
+  "industrialization.n.01", 
+  "auction.n.02", 
+  "free_trade.n.01", 
+  "commerce.n.01", 
+  "commercial_enterprise.n.02", 
+  "trade.n.01", 
+  "drug_traffic.n.01", 
+  "production.n.07", 
+  "mass_production.n.01", 
+  "tourism.n.01", 
+  "marketing.n.02"
+ ], 
+ "cluster30": [
+  "anthropology.n.01", 
+  "mythology.n.02", 
+  "social_anthropology.n.01", 
+  "economics.n.01", 
+  "ethnography.n.01", 
+  "biology.n.01", 
+  "geometry.n.01"
+ ], 
+ "cluster31": [
+  "arrest.n.02", 
+  "polish.n.02"
+ ], 
+ "cluster36": [
+  "art.n.01", 
+  "improvisation.n.01", 
+  "composition.n.09", 
+  "representation.n.02", 
+  "remake.n.01"
+ ], 
+ "cluster37": [
+  "natural_phenomenon.n.01", 
+  "reflection.n.02", 
+  "refraction.n.01"
+ ], 
+ "cluster34": [
+  "expert.n.01", 
+  "native.n.01", 
+  "explorer.n.01", 
+  "amerindian.n.01", 
+  "lover.n.01", 
+  "man.n.03", 
+  "homosexual.n.01", 
+  "houseplant.n.01", 
+  "bodybuilder.n.01", 
+  "best.n.02"
+ ], 
+ "cluster35": [
+  "shoe.n.01", 
+  "armor.n.01", 
+  "blue.n.02", 
+  "drag.n.04", 
+  "camouflage.n.03"
+ ], 
+ "cluster350": [
+  "mask.n.01"
+ ], 
+ "cluster298": [
+  "intensification.n.01", 
+  "disruption.n.04", 
+  "accumulation.n.03", 
+  "devaluation.n.02"
+ ], 
+ "cluster352": [
+  "moviemaking.n.01", 
+  "mapmaking.n.01"
+ ], 
+ "cluster421": [
+  "crash.n.04"
+ ], 
+ "cluster354": [
+  "continuity.n.03", 
+  "immortality.n.01", 
+  "impermanence.n.01", 
+  "mortality.n.01", 
+  "transience.n.01"
+ ], 
+ "cluster355": [
+  "toothpaste.n.01"
+ ], 
+ "cluster424": [
+  "development.n.08"
+ ], 
+ "cluster425": [
+  "mise_en_scene.n.01", 
+  "stage.n.03", 
+  "proscenium.n.01"
+ ], 
+ "cluster170": [
+  "vertical.n.01", 
+  "horizontal.n.01", 
+  "tilt.n.04", 
+  "orientation.n.03"
+ ], 
+ "cluster171": [
+  "reshoot.v.01", 
+  "film.v.01", 
+  "record.v.01", 
+  "document.v.01"
+ ], 
+ "cluster172": [
+  "toy.n.03", 
+  "machine.n.01"
+ ], 
+ "cluster173": [
+  "pool.n.09", 
+  "poker.n.02", 
+  "hide-and-seek.n.01"
+ ], 
+ "cluster174": [
+  "wandering.n.01", 
+  "emigration.n.01", 
+  "journey.n.01", 
+  "immigration.n.01", 
+  "water_travel.n.01"
+ ], 
+ "cluster175": [
+  "harmony.n.05", 
+  "discordance.n.01", 
+  "sound.n.01"
+ ], 
+ "cluster176": [
+  "touch.n.01", 
+  "malfunction.n.01", 
+  "bonfire.n.01", 
+  "fusion.n.01", 
+  "punctuation.n.01", 
+  "eclipse.n.01", 
+  "genesis.n.01", 
+  "coincidence.n.01", 
+  "sunset.n.03", 
+  "footfall.n.01", 
+  "vision.n.05"
+ ], 
+ "cluster177": [
+  "space.n.03", 
+  "safety.n.02", 
+  "darkness.n.02"
+ ], 
+ "cluster178": [
+  "mutability.n.01", 
+  "subtlety.n.02", 
+  "artificiality.n.01", 
+  "transparency.n.02", 
+  "fidelity.n.01", 
+  "spontaneity.n.01", 
+  "exoticism.n.01", 
+  "indefiniteness.n.01", 
+  "humanity.n.01", 
+  "adaptability.n.01", 
+  "futility.n.01"
+ ], 
+ "cluster179": [
+  "flesh.n.01", 
+  "brain.n.01"
+ ], 
+ "cluster291": [
+  "street_sign.n.01", 
+  "sign.n.02"
+ ], 
+ "cluster359": [
+  "loop.v.01", 
+  "mock.v.02", 
+  "literal.a.03", 
+  "impractical.a.01", 
+  "self-sufficient.s.01", 
+  "value.n.03", 
+  "pyramid.v.04", 
+  "documentary.a.01", 
+  "anonymous.a.01", 
+  "fold.n.01", 
+  "unidentifiable.a.01", 
+  "endless.s.01", 
+  "godard.n.01", 
+  "adjust.v.03", 
+  "fabricated.s.01", 
+  "frequency.n.01", 
+  "black_panther.n.01", 
+  "ambiguous.a.02", 
+  "play.v.01", 
+  "reassemble.v.01", 
+  "mundane.s.02", 
+  "mutuality.n.02", 
+  "mirror.v.02", 
+  "vietnamese.a.01", 
+  "chord.v.01", 
+  "spiritual.s.02", 
+  "fork.n.01", 
+  "phallic.s.02", 
+  "nothing.n.01", 
+  "cortes.n.01", 
+  "soot.v.01", 
+  "cozy.s.02", 
+  "think.v.03", 
+  "stigmatize.v.01", 
+  "sacred.s.02", 
+  "break_dance.v.01", 
+  "charming.s.01", 
+  "bypass.v.01", 
+  "irony.n.02", 
+  "censoring.n.01", 
+  "obstacle.n.01", 
+  "anticipatory.s.01", 
+  "drip.v.01", 
+  "narrative.s.01", 
+  "clinical.s.02", 
+  "instability.n.02", 
+  "breast.n.02", 
+  "hemingway.n.01", 
+  "cross-eyed.a.01", 
+  "surfboard.v.01", 
+  "shallow.a.01", 
+  "view.v.02", 
+  "gather.v.01", 
+  "japanese.a.01", 
+  "fanciful.s.02", 
+  "ephemeral.s.01", 
+  "map.v.02", 
+  "fallible.a.01", 
+  "perturb.v.01", 
+  "superimpose.v.01", 
+  "track.v.02", 
+  "bucolic.a.02", 
+  "repeat.v.04", 
+  "disparity.n.01", 
+  "rapid.s.02", 
+  "figural.s.01", 
+  "cleanse.v.02", 
+  "shadow.v.01", 
+  "throwaway.s.02", 
+  "code.v.02", 
+  "intertwine.v.01", 
+  "infrastructure.n.01", 
+  "grotesque.s.01", 
+  "economic.a.01", 
+  "communal.s.01", 
+  "disintegrate.v.01", 
+  "crystalline.s.03", 
+  "parallel.s.02", 
+  "disused.s.01", 
+  "delicate.a.01", 
+  "relational.s.01", 
+  "extreme.s.02", 
+  "dissolve.v.10", 
+  "natural.a.01", 
+  "painterly.s.01", 
+  "soldier.n.01", 
+  "victorian.s.03", 
+  "inward.a.01", 
+  "austere.s.01", 
+  "all.a.01", 
+  "innovative.s.02", 
+  "meaning.s.01", 
+  "european_union.n.01", 
+  "chicano.n.01", 
+  "weave.v.02", 
+  "credible.a.01", 
+  "interrogate.v.02", 
+  "naturalistic.s.01", 
+  "vanish.v.02", 
+  "geisha.n.01", 
+  "snog.v.01", 
+  "transparent.s.04", 
+  "civic.a.01", 
+  "temporal.a.02", 
+  "immaterial.a.03", 
+  "curl.v.01", 
+  "candid.s.02", 
+  "antiquity.n.01", 
+  "organic.a.02", 
+  "layered.s.01", 
+  "urban.a.01", 
+  "commemorate.v.02", 
+  "float.v.01", 
+  "sovereignty.n.03", 
+  "apparitional.s.01", 
+  "everyday.s.03", 
+  "absurd.s.01", 
+  "ascend.v.04", 
+  "coexist.v.01", 
+  "disconnect.v.02", 
+  "rorschach.n.01", 
+  "colorful.a.01", 
+  "empty.s.02", 
+  "power.n.05", 
+  "stage.v.01", 
+  "idealization.n.01", 
+  "suture.v.01", 
+  "anchor.n.02", 
+  "thai.a.01", 
+  "whisper.v.01", 
+  "lifelike.s.02", 
+  "alone.r.02", 
+  "rewrite.v.01", 
+  "inverted.s.01", 
+  "in-your-face.s.01", 
+  "eames.n.01", 
+  "idyllic.s.01", 
+  "heterogeneity.n.01", 
+  "massacre.v.01", 
+  "american.a.01", 
+  "freeze.v.01", 
+  "perennial.s.02", 
+  "fold.v.01", 
+  "uncontrollable.s.03", 
+  "utopian.a.01", 
+  "vocal.a.02", 
+  "domestic.a.03", 
+  "fringy.s.01", 
+  "composite.s.01", 
+  "together.r.05", 
+  "altered.a.01", 
+  "sample.v.01", 
+  "reference.v.01", 
+  "shimmer.v.02", 
+  "line_up.v.03", 
+  "relax.v.01", 
+  "western.a.02", 
+  "familiar.a.01", 
+  "rebuild.v.01", 
+  "existential.a.03", 
+  "black.s.05", 
+  "nontraditional.a.01", 
+  "private.s.02", 
+  "referential.s.01", 
+  "sugarcoat.v.02", 
+  "textile.a.01", 
+  "intricate.s.01", 
+  "artificial.a.01", 
+  "equestrian.a.02", 
+  "paradox.n.01", 
+  "industrial.a.01", 
+  "interconnection.n.01", 
+  "correlate.v.02", 
+  "normality.n.04", 
+  "hide.v.01", 
+  "doubtful.s.01", 
+  "impossibility.n.01", 
+  "psychological.s.01", 
+  "stowe.n.01", 
+  "shaman.n.01", 
+  "phantasmagoric.s.01", 
+  "poe.n.01", 
+  "squat.s.02", 
+  "resemblance.n.01", 
+  "material.a.02", 
+  "physical.s.04", 
+  "defy.v.01", 
+  "suspended.s.01", 
+  "deconstruct.v.01", 
+  "poetic.s.04", 
+  "patriotism.n.01", 
+  "maternal.a.01", 
+  "superficial.s.03", 
+  "decompose.v.03", 
+  "romanticize.v.01", 
+  "haunted.s.03", 
+  "three-dimensional.s.01", 
+  "incomplete.s.02", 
+  "melt.v.01", 
+  "unravel.v.01", 
+  "worthless.a.01", 
+  "personal.s.02", 
+  "rococo.n.01", 
+  "frustration.n.01", 
+  "disembody.v.01", 
+  "taboo.n.02", 
+  "bound.a.01", 
+  "flatten.v.01", 
+  "raw.s.04", 
+  "converge.v.01", 
+  "equivocal.a.01", 
+  "invalid.n.01", 
+  "mangle.v.03", 
+  "double.s.01", 
+  "listen_in.v.02", 
+  "tragic.s.01", 
+  "ancestry.n.02", 
+  "outward.r.01", 
+  "diaphanous.s.01", 
+  "unreal.a.01", 
+  "informal.a.01", 
+  "abstract.s.02", 
+  "real.a.01", 
+  "deadpan.s.01", 
+  "break_up.v.16", 
+  "ball.v.01"
+ ], 
+ "cluster293": [
+  "immolation.n.01", 
+  "murder.n.01"
+ ], 
+ "cluster292": [
+  "self-government.n.01"
+ ], 
+ "cluster295": [
+  "eroticism.n.01", 
+  "materialism.n.01"
+ ], 
+ "cluster294": [
+  "dance.n.01", 
+  "diptych.n.01", 
+  "kitsch.n.01"
+ ], 
+ "cluster297": [
+  "fortune.n.04", 
+  "catastrophe.n.02"
+ ], 
+ "cluster296": [
+  "photography.n.01", 
+  "simulation.n.01"
+ ], 
+ "cluster299": [
+  "baseball.n.01"
+ ], 
+ "cluster423": [
+  "cellular.a.02"
+ ], 
+ "cluster420": [
+  "prison.n.01"
+ ], 
+ "cluster353": [
+  "resurrection.n.02", 
+  "revival.n.01"
+ ], 
+ "cluster426": [
+  "stability.n.01", 
+  "fastness.n.02"
+ ], 
+ "cluster427": [
+  "ramadan.n.02"
+ ], 
+ "cluster356": [
+  "life.n.01", 
+  "coexistence.n.01", 
+  "actuality.n.01", 
+  "transcendence.n.01"
+ ], 
+ "cluster357": [
+  "cutout.n.03", 
+  "scrap.n.03"
+ ], 
+ "cluster198": [
+  "brawn.n.01", 
+  "endurance.n.01", 
+  "invulnerability.n.02"
+ ], 
+ "cluster199": [
+  "illusion.n.01", 
+  "field.n.16", 
+  "microcosm.n.01", 
+  "original.n.02", 
+  "recollection.n.03"
+ ], 
+ "cluster192": [
+  "surfboard.n.01", 
+  "slide.n.01"
+ ], 
+ "cluster193": [
+  "circulation.n.05", 
+  "sinking.n.01", 
+  "dripping.n.01"
+ ], 
+ "cluster190": [
+  "television.n.02", 
+  "internet.n.01"
+ ], 
+ "cluster191": [
+  "hollywood.n.02", 
+  "absence.n.01"
+ ], 
+ "cluster196": [
+  "ethic.n.01", 
+  "pattern.n.05"
+ ], 
+ "cluster197": [
+  "conference.n.01", 
+  "community.n.01", 
+  "crowd.n.01", 
+  "audience.n.01"
+ ], 
+ "cluster194": [
+  "latent_hostility.n.01", 
+  "cold_war.n.02"
+ ], 
+ "cluster195": [
+  "imprint.n.04", 
+  "postage.n.02"
+ ], 
+ "cluster422": [
+  "texture.n.01"
+ ], 
+ "cluster459": [
+  "change.v.02"
+ ], 
+ "cluster458": [
+  "anthropomorphize.v.01"
+ ], 
+ "cluster457": [
+  "film_noir.n.01", 
+  "documentary.n.01"
+ ], 
+ "cluster456": [
+  "sensuousness.n.01"
+ ], 
+ "cluster455": [
+  "west.n.01"
+ ], 
+ "cluster454": [
+  "public.n.02"
+ ], 
+ "cluster453": [
+  "ali.n.01"
+ ], 
+ "cluster452": [
+  "colonization.n.01", 
+  "obfuscation.n.03", 
+  "reconstruction.n.02", 
+  "authorship.n.02"
+ ], 
+ "cluster451": [
+  "ennoble.v.01"
+ ], 
+ "cluster450": [
+  "islam.n.02", 
+  "zen.n.02"
+ ], 
+ "cluster228": [
+  "borrowing.n.01", 
+  "apprehension.n.04"
+ ], 
+ "cluster229": [
+  "fatherhood.n.01", 
+  "kinship.n.02", 
+  "sisterhood.n.01"
+ ], 
+ "cluster224": [
+  "additive.a.02"
+ ], 
+ "cluster225": [
+  "retrospect.n.01", 
+  "introspection.n.01", 
+  "meditation.n.01", 
+  "meditation.n.02"
+ ], 
+ "cluster226": [
+  "suspense.n.03", 
+  "hope.n.01"
+ ], 
+ "cluster227": [
+  "fabrication.n.04", 
+  "weaving.n.01"
+ ], 
+ "cluster220": [
+  "vanishing_point.n.01", 
+  "vantage_point.n.01", 
+  "site.n.02", 
+  "landmark.n.01"
+ ], 
+ "cluster221": [
+  "computer_game.n.01", 
+  "treasure_hunt.n.01"
+ ], 
+ "cluster222": [
+  "thaw.n.01", 
+  "climate_change.n.01", 
+  "global_warming.n.01"
+ ], 
+ "cluster223": [
+  "expressway.n.01", 
+  "street.n.02", 
+  "street.n.01"
+ ], 
+ "cluster76": [
+  "museum.n.01", 
+  "archive.n.01"
+ ], 
+ "cluster77": [
+  "separation.n.01"
+ ], 
+ "cluster74": [
+  "optimism.n.01", 
+  "dignity.n.01", 
+  "ambition.n.01", 
+  "fear.n.01", 
+  "alienation.n.01"
+ ], 
+ "cluster75": [
+  "hair.n.01", 
+  "braid.n.01"
+ ], 
+ "cluster72": [
+  "workplace.n.01", 
+  "home.n.01", 
+  "recording_studio.n.01"
+ ], 
+ "cluster73": [
+  "memory.n.01", 
+  "overlap.n.01", 
+  "blur.n.01", 
+  "stereotype.n.01"
+ ], 
+ "cluster70": [
+  "monument.n.02", 
+  "garden.n.01", 
+  "cemetery.n.01"
+ ], 
+ "cluster71": [
+  "exhibition.n.01", 
+  "magic_trick.n.01", 
+  "exposure.n.09", 
+  "performance.n.02", 
+  "reinterpretation.n.02"
+ ], 
+ "cluster78": [
+  "bayrut.n.01", 
+  "berlin.n.01", 
+  "moscow.n.01", 
+  "beijing.n.01", 
+  "paris.n.01"
+ ], 
+ "cluster79": [
+  "eternity.n.01", 
+  "continuum.n.01", 
+  "time.n.05", 
+  "future.n.01", 
+  "history.n.04", 
+  "history.n.01"
+ ], 
+ "cluster330": [
+  "armistice.n.01", 
+  "peace.n.02", 
+  "peace.n.01"
+ ], 
+ "cluster107": [
+  "luck.n.02"
+ ], 
+ "cluster481": [
+  "conscious.s.01"
+ ], 
+ "cluster466": [
+  "surrender.n.03"
+ ], 
+ "cluster395": [
+  "rhythm.n.02"
+ ], 
+ "cluster464": [
+  "multiply.v.02"
+ ], 
+ "cluster465": [
+  "precise.a.01"
+ ], 
+ "cluster390": [
+  "vertex.n.01", 
+  "bauhaus.n.01"
+ ], 
+ "cluster391": [
+  "polyhedron.n.01", 
+  "cube.n.01"
+ ], 
+ "cluster392": [
+  "food.n.02", 
+  "glass.n.01", 
+  "chocolate.n.02"
+ ], 
+ "cluster461": [
+  "glaze.n.01"
+ ], 
+ "cluster398": [
+  "invitation.n.01"
+ ], 
+ "cluster399": [
+  "ocean.n.01", 
+  "indian_ocean.n.01", 
+  "dead_sea.n.01"
+ ], 
+ "cluster468": [
+  "pomp.n.02"
+ ], 
+ "cluster469": [
+  "cinematic.a.01"
+ ], 
+ "cluster499": [
+  "colonialism.n.01"
+ ], 
+ "cluster498": [
+  "dementia.n.01"
+ ], 
+ "cluster493": [
+  "confinement.n.03", 
+  "detention.n.01"
+ ], 
+ "cluster492": [
+  "idea.n.01"
+ ], 
+ "cluster491": [
+  "rubber_boot.n.01"
+ ], 
+ "cluster490": [
+  "dilapidation.n.02", 
+  "decomposition.n.04"
+ ], 
+ "cluster497": [
+  "craft.n.04"
+ ], 
+ "cluster496": [
+  "spectator.n.01"
+ ], 
+ "cluster495": [
+  "dull.s.05"
+ ], 
+ "cluster494": [
+  "wealth.n.02"
+ ], 
+ "cluster129": [
+  "tattoo.n.02"
+ ], 
+ "cluster128": [
+  "ritual.n.01", 
+  "iteration.n.03", 
+  "reduplication.n.04"
+ ], 
+ "cluster242": [
+  "bunny.n.02", 
+  "cat.n.01", 
+  "fox.n.01", 
+  "world.n.08"
+ ], 
+ "cluster123": [
+  "interrogation.n.03", 
+  "anecdote.n.01", 
+  "commission.n.06", 
+  "protest.n.03"
+ ], 
+ "cluster122": [
+  "tarantella.n.02", 
+  "ballet.n.01"
+ ], 
+ "cluster121": [
+  "hope.n.02", 
+  "desire.n.01", 
+  "ambivalence.n.01", 
+  "emotion.n.01"
+ ], 
+ "cluster120": [
+  "watercolor.n.01", 
+  "mezzotint.n.01", 
+  "abstraction.n.04", 
+  "fresco.n.01", 
+  "monochrome.n.01", 
+  "still_life.n.01", 
+  "mural.n.01"
+ ], 
+ "cluster127": [
+  "drudgery.n.01", 
+  "effort.n.02", 
+  "social_work.n.01", 
+  "research.n.01"
+ ], 
+ "cluster126": [
+  "hero.n.02"
+ ], 
+ "cluster125": [
+  "claustrophobia.n.01", 
+  "xenophobia.n.01", 
+  "posttraumatic_stress_disorder.n.01"
+ ], 
+ "cluster124": [
+  "cornet.n.01"
+ ], 
+ "cluster268": [
+  "quotation.n.02", 
+  "cut.n.02"
+ ], 
+ "cluster269": [
+  "occlusion.n.01"
+ ], 
+ "cluster260": [
+  "consumption.n.03", 
+  "globalization.n.01"
+ ], 
+ "cluster261": [
+  "commemoration.n.01", 
+  "celebration.n.01"
+ ], 
+ "cluster262": [
+  "mutation.n.03", 
+  "transition.n.03", 
+  "transformation.n.01", 
+  "surprise.n.02"
+ ], 
+ "cluster263": [
+  "thirst.n.01"
+ ], 
+ "cluster264": [
+  "systematize.v.01", 
+  "order.v.05"
+ ], 
+ "cluster265": [
+  "transcription.n.01"
+ ], 
+ "cluster266": [
+  "malleability.n.01", 
+  "visibility.n.01", 
+  "imperceptibility.n.01"
+ ], 
+ "cluster267": [
+  "deterioration.n.02", 
+  "loss.n.02", 
+  "desensitization.n.01"
+ ], 
+ "cluster303": [
+  "disorder.n.01", 
+  "obstruction.n.02"
+ ], 
+ "cluster302": [
+  "fandom.n.01", 
+  "audience.n.02"
+ ], 
+ "cluster301": [
+  "mail.n.02", 
+  "transmission.n.02", 
+  "dramaturgy.n.01"
+ ], 
+ "cluster300": [
+  "ad.n.01", 
+  "sales_talk.n.01"
+ ], 
+ "cluster307": [
+  "circle.n.01"
+ ], 
+ "cluster306": [
+  "sugar.n.01", 
+  "flour.n.01"
+ ], 
+ "cluster305": [
+  "socialization.n.03", 
+  "denationalization.n.01", 
+  "demobilization.n.01", 
+  "occupation.n.02"
+ ], 
+ "cluster304": [
+  "thing.n.12", 
+  "fragment.n.01", 
+  "slice.n.05"
+ ], 
+ "cluster309": [
+  "invasion.n.01"
+ ], 
+ "cluster308": [
+  "intermediate.a.01"
+ ], 
+ "cluster251": [
+  "inequality.n.01", 
+  "otherness.n.01"
+ ], 
+ "cluster319": [
+  "boyhood.n.01"
+ ]
+}
