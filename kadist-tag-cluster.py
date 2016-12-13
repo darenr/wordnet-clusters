@@ -155,7 +155,7 @@ def word_cluster(data, labels, k):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print 'usage: <k>, <threshold>'
+        print 'usage: <k, for example 200>, <threshold, eg 0.7>'
         sys.exit(-1)
 
     k = int(sys.argv[1])

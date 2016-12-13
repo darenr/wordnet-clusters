@@ -8,7 +8,7 @@ if __name__ == "__main__":
       j = json.loads(f.read())
       for cluster in j:
         print 
-        print cluster
+        print 
         if len(j[cluster]) < 20 and len(j[cluster]) > 3:
           for word in sorted(j[cluster]):
             print "  ", word
