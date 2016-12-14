@@ -24,11 +24,15 @@ def cosine_distance(a, b):
 def tag_distance(a,b):
     # simply return a count of the number of tokens in common
     sim = len([x for x in a['tokens'] if x in set(b['tokens'])])
-    print a,b, sim
     return sim
 
 def distance_function(a,b):
-    if len(a['tokens']) < 10 or len(b['tokens']) < 10:
+    #
+    # autoselect distance metrics, for documents we break them into tokens and use
+    # cosine_distance, but for tags which shouldn't be tokenized the distance
+    # between any two sets of "tags"
+    #
+    if len(a['tokens']) < 10 or len(b['tokens']) < 5:
         return tag_distance(a,b)
     else:
         return cosine_distance(a,b)
@@ -132,24 +136,21 @@ def flatten(d, parent_key='', sep='.'):
     return dict(items)
 
 
-def process_document(d, id, fields, strings_as_tags=True):
+def process_document(d, id, fields):
     tokens = []
     for field in fields:
         if field in d and d[field]:
             if isinstance(d[field], list):
                 tokens += d[field]
             elif isinstance(d[field], basestring):
-                if strings_as_tags:
+                if len(d[field]) < 30:
                     tokens += [d[field]]
                 else:
                     tokens += d[field].split()
             elif isinstance(d[field], int):
                 tokens += [str(d[field])]
-        else:
-            return None
 
     if tokens:
-        print tokens
         return {
             "id": id,
             "tokens": tokens
@@ -163,7 +164,7 @@ def get_arpedia_documents(enriched_files_folder, fields):
 
     doc_id = 0
     for filename in os.listdir(enriched_files_folder):
-        if doc_id == 100: return m, docs
+        #if doc_id == 100: return m, docs
         if filename.endswith('.json'):
             with codecs.open(os.path.join(enriched_files_folder, filename), 'rb', 'utf-8') as f:
                 enriched_record = json.loads(f.read())
@@ -178,7 +179,7 @@ def get_arpedia_documents(enriched_files_folder, fields):
 
 
 def main(args):
-    fields = ['decade_work_created', 'artist_bio.location']
+    fields = ['decade_work_created', 'artist_bio.location', 'description', 'artist_description', 'merged_tags']
     m, documents = get_arpedia_documents(args[1], fields)
 
     add_tfidf_to(documents)
@@ -187,16 +188,8 @@ def main(args):
     result = []
 
     for cluster in majorclust(dist_graph):
-        #debuging:
-
-        print '='*60
-        for doc_id in cluster:
-            for field in fields:
-                print '   ', m[doc_id][field]
-            print '-'*50
-
-
-        membership = list(set([m[doc_id]['artist_name'] for doc_id in cluster]))
+        membership = list(set([m[doc_id]['artist_name'] for doc_id in cluster if 'artist_name' in m[doc_id]]))
+        print len(membership)
         result.append({
             "id":  doc_id,
             "membership": membership,
