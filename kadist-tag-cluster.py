@@ -154,6 +154,7 @@ def word_cluster(data, labels, k):
         histogram(d)
 
 if __name__ == "__main__":
+    
     if len(sys.argv) != 3:
         print 'usage: <k, for example 200>, <threshold, eg 0.7>'
         sys.exit(-1)
@@ -163,7 +164,9 @@ if __name__ == "__main__":
     print ' *', 'k=', k, 't=', t
     print ' *', 'loading tag set...'
     words = load_kadist_tags()
+
     print ' *', 'generating dataset...'
     data, labels = make_data_matrix(words, t)
+
     print ' *', 'clustering...'
     word_cluster(data, labels, k=k)
