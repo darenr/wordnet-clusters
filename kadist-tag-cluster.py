@@ -30,7 +30,7 @@ def mk_synset(w):
         return None
 
 
-def load_kadist_tags():
+def load_tags():
     with codecs.open('data/tags.txt', 'rb', 'utf-8') as tagfile:
         return [mk_synset(w) for w in tagfile.readlines() if mk_synset(w)]
 
@@ -69,7 +69,6 @@ def wup(w1, w2, t):
 # wordnet path similarity distancewv
 #
 
-
 def path(w1, w2, t):
     distance = w1.path_similarity(w2)
     if distance:
@@ -81,7 +80,6 @@ def path(w1, w2, t):
 # Normalized distance between any two words as represented
 # by wordnet synsets
 #
-
 
 def word_to_word_distance(w1, w2, t):
     if w1 == w2:
@@ -112,6 +110,7 @@ def make_data_matrix(words, t):
         for word_y in words:
             wordvector.append(word_to_word_distance(word_x, word_y, t))
         list_of_vectors.append(wordvector)
+
     data = np.array(np.array(list_of_vectors))
     labels = words
     return (data, labels)
@@ -161,7 +160,7 @@ if __name__ == "__main__":
 
     print ' *', 'k=', k, 't=', t
     print ' *', 'loading tag set...'
-    words = load_kadist_tags()
+    words = load_tags()
 
     print ' *', 'generating dataset...'
     data, labels = make_data_matrix(words, t)
