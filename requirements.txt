@@ -2,3 +2,4 @@ gensim
 nltk
 sklearn
 numpy
+matplotlib

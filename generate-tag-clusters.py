@@ -15,7 +15,7 @@ from gensim.models import KeyedVectors
 wvmodel = None
 
 # make False to switch to wordvectors
-use_wordnet = False
+use_wordnet = True
 
 modelFile = os.environ['HOME'] + "/models/" + "glove.6B.300d_word2vec.txt"
 
@@ -30,9 +30,11 @@ def mk_synset(w):
         return None
 
 
-def load_tags():
-    with codecs.open('data/tags.txt', 'rb', 'utf-8') as tagfile:
-        return [mk_synset(w) for w in tagfile.readlines() if mk_synset(w)]
+def load_tags(filename):
+    with codecs.open(filename, 'rb', 'utf-8') as tagfile:
+        data = [mk_synset(w) for w in tagfile.readlines() if mk_synset(w)]
+        print ' *', 'loaded', len(data), 'wordnet senses'
+        return data
 
 #
 # wordvectors similarity distance
@@ -42,13 +44,12 @@ def wv(w1, w2, t):
     # lazy load the wordvector model...
     global wvmodel
     if wvmodel == None:
-        print ' *', 'Loading wordvector model (', modelFile, ')...'
+        print ' *', 'loading wordvector model (', modelFile, ')...'
         wvmodel = KeyedVectors.load_word2vec_format(modelFile, binary=False)
         wvmodel.init_sims(replace=True)  # no more updates, prune memory
 
     try:
-        distance = wvmodel.similarity(
-            w1.lemmas()[0].name(), w2.lemmas()[0].name())
+        distance = wvmodel.similarity(w1.lemmas()[0].name(), w2.lemmas()[0].name())
         print w1.name(), w2.name(), 'distance: ', distance
         return distance if distance >= t else 0
     except:
@@ -116,17 +117,17 @@ def make_data_matrix(words, t):
     return (data, labels)
 
 
-def histogram(d):
+def show_histogram(d):
+    
     c = {k: len(d[k]) for k in d.keys()}
     labels, values = zip(*c.items())
     indexes = np.arange(len(labels))
     width = 1
     plt.bar(indexes, values, width)
-    plt.xticks(indexes + width * 0.5, labels)
+    plt.xticks(indexes + width * 0.5, labels, rotation='vertical')
     plt.show()
 
-
-def word_cluster(data, labels, k):
+def word_cluster(data, labels, k, show_histogram_plot=False):
     k_means = cluster.KMeans(n_clusters=k)
     k_means.fit(data)
     for i, label in enumerate(labels):
@@ -137,33 +138,31 @@ def word_cluster(data, labels, k):
         d['cluster' + str(c)].append(l.name())
 
     fname = 'results/clusters'
-
     fname += "_wn" if use_wordnet else "_wv"
-
     fname += '_k' + str(k) + '.json'
 
     with codecs.open(fname, 'wb', 'utf-8') as outfile:
         outfile.write(json.dumps(d, indent=True))
-        print ' * Saved results to', fname
+        print ' * saved results to', fname
         # create histogram of cluster sizes
-        histogram(d)
+        if show_histogram_plot:
+            show_histogram(d)
 
 
 if __name__ == "__main__":
 
-    if len(sys.argv) != 3:
-        print 'usage: <k, for example 20>, <threshold, eg 0.7>'
+    if len(sys.argv) != 4:
+        print 'usage: <words file> <k, for example 20>, <threshold, eg 0.7>'
         sys.exit(-1)
 
-    k = int(sys.argv[1])
-    t = float(sys.argv[2])
+    f = sys.argv[1]
+    k = int(sys.argv[2])
+    t = float(sys.argv[3])
 
-    print ' *', 'k=', k, 't=', t
-    print ' *', 'loading tag set...'
-    words = load_tags()
+    words = load_tags(f)
 
     print ' *', 'generating dataset...'
     data, labels = make_data_matrix(words, t)
 
     print ' *', 'clustering...'
-    word_cluster(data, labels, k=k)
+    word_cluster(data, labels, k=k, show_histogram_plot=True)

@@ -13,6 +13,7 @@ import math
 import os
 import collections
 
+
 def cosine_distance(a, b):
     cos = 0.0
     a_tfidf = a["tfidf"]
@@ -21,21 +22,23 @@ def cosine_distance(a, b):
             cos += tfidf * a_tfidf[token]
     return cos
 
-def tag_distance(a,b):
+
+def tag_distance(a, b):
     # simply return a count of the number of tokens in common
     sim = len([x for x in a['tokens'] if x in set(b['tokens'])])
     return sim
 
-def distance_function(a,b):
+
+def distance_function(a, b):
     #
     # autoselect distance metrics, for documents we break them into tokens and use
     # cosine_distance, but for tags which shouldn't be tokenized the distance
     # between any two sets of "tags"
     #
     if len(a['tokens']) < 10 or len(b['tokens']) < 5:
-        return tag_distance(a,b)
+        return tag_distance(a, b)
     else:
-        return cosine_distance(a,b)
+        return cosine_distance(a, b)
 
 
 def normalize(features):
@@ -158,13 +161,14 @@ def process_document(d, id, fields):
 
     return None
 
+
 def get_arpedia_documents(enriched_files_folder, fields):
     docs = []
     m = {}
 
     doc_id = 0
     for filename in os.listdir(enriched_files_folder):
-        #if doc_id == 100: return m, docs
+        # if doc_id == 100: return m, docs
         if filename.endswith('.json'):
             with codecs.open(os.path.join(enriched_files_folder, filename), 'rb', 'utf-8') as f:
                 enriched_record = json.loads(f.read())
@@ -200,6 +204,7 @@ def main(args):
     with codecs.open(filename, 'wb', 'utf-8') as f:
         f.write(json.dumps(result, ensure_ascii=False, indent=2, encoding='utf8'))
     print 'written results to', filename
+
 
 if __name__ == '__main__':
     main(sys.argv)
