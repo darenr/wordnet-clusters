@@ -1,4 +1,4 @@
-# Clustering using `wordnet` and word2vec distance metrics
+# Tag Clustering using `wordnet` and `word2vec` distance metrics
 
 Clustering a set of `wordnet` synsets using k-means, the `wordnet` pair-wise distance (semantic relatedness) of word senses using the [Edge Counting method of the of Wu & Palmer (1994)](https://pdfs.semanticscholar.org/6eff/221e1cf5ae28ce7dcb60515d028b98e37aa5.pdf) is mapped to the euclidean distance to allow K-means to converge preserving the original pair-wise relationship.
 
