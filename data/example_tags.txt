@@ -1,3 +1,6 @@
+#
+# tags should be in disambiguated wordnet sense form
+#
 cinematic.a.01
 loop.v.01
 vein.n.03

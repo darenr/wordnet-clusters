@@ -9,8 +9,11 @@ import codecs
 from nltk.corpus import wordnet
 from collections import defaultdict, Counter
 import matplotlib.pyplot as plt
+import matplotlib as mpl
 import os
 from gensim.models import KeyedVectors
+
+mpl.rcParams['toolbar'] = 'None'
 
 wvmodel = None
 
@@ -20,6 +23,7 @@ use_wordnet = True
 modelFile = os.environ['HOME'] + "/models/" + "glove.6B.300d_word2vec.txt"
 
 cache = {}
+
 
 def mk_synset(w):
     word = w.strip()
@@ -32,13 +36,15 @@ def mk_synset(w):
 
 def load_tags(filename):
     with codecs.open(filename, 'rb', 'utf-8') as tagfile:
-        data = [mk_synset(w) for w in tagfile.readlines() if mk_synset(w)]
-        print ' *', 'loaded', len(data), 'wordnet senses'
+        lines = [line for line in tagfile.readlines() if not line.startswith('#')]
+        data = [mk_synset(w) for w in lines if mk_synset(w)]
+        print ' *', 'loaded', len(data), 'wordnet senses,', len(lines) - len(data), 'rejected'
         return data
 
 #
 # wordvectors similarity distance
 #
+
 
 def wv(w1, w2, t):
     # lazy load the wordvector model...
@@ -50,7 +56,7 @@ def wv(w1, w2, t):
 
     try:
         distance = wvmodel.similarity(w1.lemmas()[0].name(), w2.lemmas()[0].name())
-        print w1.name(), w2.name(), 'distance: ', distance
+        print ' *', w1.name(), w2.name(), 'distance: ', distance
         return distance if distance >= t else 0
     except:
         return 0
@@ -58,6 +64,7 @@ def wv(w1, w2, t):
 #
 # wordnet wup similarity distance
 #
+
 
 def wup(w1, w2, t):
     distance = w1.wup_similarity(w2)
@@ -70,6 +77,7 @@ def wup(w1, w2, t):
 # wordnet path similarity distancewv
 #
 
+
 def path(w1, w2, t):
     distance = w1.path_similarity(w2)
     if distance:
@@ -81,6 +89,7 @@ def path(w1, w2, t):
 # Normalized distance between any two words as represented
 # by wordnet synsets
 #
+
 
 def word_to_word_distance(w1, w2, t):
     if w1 == w2:
@@ -118,20 +127,20 @@ def make_data_matrix(words, t):
 
 
 def show_histogram(d):
-    
     c = {k: len(d[k]) for k in d.keys()}
-    labels, values = zip(*c.items())
-    indexes = np.arange(len(labels))
-    width = 1
-    plt.bar(indexes, values, width)
-    plt.xticks(indexes + width * 0.5, labels, rotation='vertical')
+    bars, heights = zip(*c.items())
+    y_pos = range(len(bars))
+    plt.bar(y_pos, heights)
+    plt.xticks(y_pos, bars, rotation=90)
     plt.show()
+
 
 def word_cluster(data, labels, k, show_histogram_plot=False):
     k_means = cluster.KMeans(n_clusters=k)
     k_means.fit(data)
-    for i, label in enumerate(labels):
-        print label, k_means.labels_[i]
+
+    # for i, label in enumerate(labels):
+    #    print ' *', label, k_means.labels_[i]
 
     d = defaultdict(list)
     for c, l in zip(k_means.labels_, labels):
@@ -152,7 +161,7 @@ def word_cluster(data, labels, k, show_histogram_plot=False):
 if __name__ == "__main__":
 
     if len(sys.argv) != 4:
-        print 'usage: <words file> <k, for example 20>, <threshold, eg 0.7>'
+        print ' *', 'usage: <words file> <k, for example 20>, <threshold, eg 0.7>'
         sys.exit(-1)
 
     f = sys.argv[1]
