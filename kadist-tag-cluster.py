@@ -10,18 +10,16 @@ from nltk.corpus import wordnet
 from collections import defaultdict, Counter
 import matplotlib.pyplot as plt
 import os
-from gensim.models import Word2Vec
+from gensim.models import KeyedVectors
 
 wvmodel = None
 
-use_wordnet = True
-use_wordvectors = True
+# make False to switch to wordvectors
+use_wordnet = False
 
-modelFile = "en_deps_300D_words.model"
-modelFile = "glove.42B.300d.txt"
+modelFile = os.environ['HOME'] + "/models/" + "glove.6B.300d_word2vec.txt"
 
 cache = {}
-
 
 def mk_synset(w):
     word = w.strip()
@@ -40,14 +38,12 @@ def load_kadist_tags():
 # wordvectors similarity distance
 #
 
-
 def wv(w1, w2, t):
     # lazy load the wordvector model...
     global wvmodel
     if wvmodel == None:
         print ' *', 'Loading wordvector model (', modelFile, ')...'
-        wvmodel = Word2Vec.load_word2vec_format(
-            os.environ['HOME'] + "/models/" + modelFile, binary=False)
+        wvmodel = KeyedVectors.load_word2vec_format(modelFile, binary=False)
         wvmodel.init_sims(replace=True)  # no more updates, prune memory
 
     try:
@@ -61,7 +57,6 @@ def wv(w1, w2, t):
 #
 # wordnet wup similarity distance
 #
-
 
 def wup(w1, w2, t):
     distance = w1.wup_similarity(w2)
@@ -102,7 +97,7 @@ def word_to_word_distance(w1, w2, t):
             if use_wordnet:
                 distances.append(wup(x[0], x[1], t))
                 distances.append(path(x[0], x[1], t))
-            elif use_wordvectors:
+            else:
                 # scale threshold between wm and wv
                 distances.append(wv(w1, w2, t / 2.5))
             d = sum(distances) / len(distances)
@@ -141,26 +136,29 @@ def word_cluster(data, labels, k):
     d = defaultdict(list)
     for c, l in zip(k_means.labels_, labels):
         d['cluster' + str(c)].append(l.name())
+
     fname = 'results/clusters'
-    if use_wordnet:
-        fname += "_wn"
-    if use_wordvectors:
-        fname += "_wv"
+
+    fname += "_wn" if use_wordnet else "_wv"
+
     fname += '_k' + str(k) + '.json'
+
     with codecs.open(fname, 'wb', 'utf-8') as outfile:
         outfile.write(json.dumps(d, indent=True))
         print ' * Saved results to', fname
         # create histogram of cluster sizes
         histogram(d)
 
+
 if __name__ == "__main__":
-    
+
     if len(sys.argv) != 3:
-        print 'usage: <k, for example 200>, <threshold, eg 0.7>'
+        print 'usage: <k, for example 20>, <threshold, eg 0.7>'
         sys.exit(-1)
 
     k = int(sys.argv[1])
     t = float(sys.argv[2])
+
     print ' *', 'k=', k, 't=', t
     print ' *', 'loading tag set...'
     words = load_kadist_tags()
