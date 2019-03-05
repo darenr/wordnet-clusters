@@ -18,14 +18,17 @@ mpl.rcParams['toolbar'] = 'None'
 wvmodel = None
 
 # make False to switch to wordvectors
-use_wordnet = True
+use_wordnet = False
 
 modelFile = os.environ['HOME'] + "/models/" + "glove.6B.300d_word2vec.txt"
 
 cache = {}
 
 
-def mk_synset(w):
+def _mk_synset(w):
+    #
+    # turn cat.n.01 into the Synset object form
+    #
     word = w.strip()
     if '.' in word:
         return wordnet.synset(word)
@@ -33,18 +36,25 @@ def mk_synset(w):
         print ' * Error, invalid synset name', w, 'skipping...'
         return None
 
+def _mk_wv_word(s):
+    #
+    # turn wordnet Synset into word2vec word form
+    #   e.g. cat.n.01 -> 'cat'
+    #   e.g. free_trade.n.01 -> free-trade
+    return s.lemmas()[0].name().replace('_', '-')
+
+
 
 def load_tags(filename):
     with codecs.open(filename, 'rb', 'utf-8') as tagfile:
         lines = [line for line in tagfile.readlines() if not line.startswith('#')]
-        data = [mk_synset(w) for w in lines if mk_synset(w)]
+        data = [_mk_synset(w) for w in lines if _mk_synset(w)]
         print ' *', 'loaded', len(data), 'wordnet senses,', len(lines) - len(data), 'rejected'
         return data
 
 #
 # wordvectors similarity distance
 #
-
 
 def wv(w1, w2, t):
     # lazy load the wordvector model...
@@ -55,9 +65,15 @@ def wv(w1, w2, t):
         wvmodel.init_sims(replace=True)  # no more updates, prune memory
 
     try:
-        distance = wvmodel.similarity(w1.lemmas()[0].name(), w2.lemmas()[0].name())
-        print ' *', w1.name(), w2.name(), 'distance: ', distance
-        return distance if distance >= t else 0
+        #
+        # since we've got wordnet synset objects (like cat.n.01), we
+        # must turn this back into a regular word ('cat') because the
+        # word vector GloVe models are plain words with spaces turned
+        # into hyphens on phrases (e.g. climate-change, black-and-white)
+        #
+        wv_w1, wv_w2 = _mk_wv_word(w1), _mk_wv_word(w2)
+        distance = wvmodel.similarity(wv_w1, wv_w2)
+        return distance if abs(distance) >= t else 0
     except:
         return 0
 
@@ -152,7 +168,7 @@ def word_cluster(data, labels, k, show_histogram_plot=False):
 
     with codecs.open(fname, 'wb', 'utf-8') as outfile:
         outfile.write(json.dumps(d, indent=True))
-        print ' * saved results to', fname
+        print ' * saved results to:', fname
         # create histogram of cluster sizes
         if show_histogram_plot:
             show_histogram(d)
