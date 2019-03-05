@@ -9,7 +9,7 @@ By toggling `use_wordnet = False` to `True` the distance metric between words wi
 # To Use:
 
 - create a newline delimited file with a list of `wordnet` senses (eg. data/example_tags.txt)
-- to use wordnet set `use_wordnet=True`, to use `word2vec` `use_wordnet=False`
+- to use `wordnet` set `use_wordnet=True`, to use `word2vec` `use_wordnet=False`
 - ```python generate-tag-clusters.py data/example_tags.txt 25 0.7```
   - 25 is the number of clusters to segment the list of `wordnet` senses into.
   - 0.7 is the similarity threshold, below this the words are considered not similar
